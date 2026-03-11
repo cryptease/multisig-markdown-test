@@ -4,7 +4,7 @@
 
 ## Quorum
 
-| chainId | safeAddress | required | total | updatedAt |
+| chainId | safeAddress | required | total | dbUpdatedAt |
 | --- | --- | --- | --- | --- |
 | 1 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 5 | 8 | 2026-03-11T22:14:13.568Z |
 | 10 | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 | 5 | 8 | 2026-03-11T22:14:15.296Z |
@@ -241,5 +241,5 @@
 | d033b969-9075-4ab3-8fd5-b54dd1c32c2b | 146 | — | — | — | 2026-03-11T22:14:19.796Z | 2026-03-11T22:14:19.796Z |
 
 
-Generated at: 2026-03-11T22:56:29.653Z
+Generated at: 2026-03-11T22:57:51.721Z
 Total: 81
