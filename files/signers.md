@@ -30,7 +30,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 09b16430-7e2a-4b8c-93c3-2837e50c40b2 | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | 63f82e49-ea68-4d83-be60-a3bdb27f5e2f | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -54,7 +54,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0bd768f7-1776-4da5-b066-52593688c3ab | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | 2df54db3-c893-467c-9ece-3dcb64569581 | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -78,7 +78,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 0bfe38f5-31f3-4a99-9a1d-07e48015054b | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | b8828578-3d47-4581-b655-137db1657b94 | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -102,7 +102,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 3970d412-95d5-43b3-88a5-8663c2152e07 | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | b3590085-145d-42f2-8a81-86892c347399 | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -126,7 +126,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 805a2926-197b-432a-8fe7-9745a956b692 | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | 08437b03-7f81-4011-a6e1-c495950876a7 | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -150,7 +150,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 8bb56997-eafc-40e1-94fe-4448397b6a84 | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | 503e5559-3a78-4a98-b45b-a9e8d11260bc | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -173,7 +173,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 9aa9a77b-8c15-4039-99f6-38e8edce7ffd | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | d25d0917-62db-4481-83e2-b853f764736f | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -197,7 +197,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | dcd14cb1-251d-4dfa-9306-3f2d74fdca57 | 534352 | — | — | — | 2026-03-11T22:14:26.031Z | 2026-03-11T22:14:26.031Z |
 | 4237a640-6dd8-4241-a7bf-4e00c840372b | 59144 | — | — | — | 2026-03-11T22:14:24.696Z | 2026-03-11T22:14:24.696Z |
@@ -221,7 +221,7 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | 93c6b32c-5140-4388-939e-6e7aa11c17cb | 146 | — | — | — | 2026-03-11T22:14:19.796Z | 2026-03-11T22:14:19.796Z |
 
@@ -236,10 +236,10 @@
 
 ### Per network / safe
 
-| id | chainId | name | description | activeFrom | createdAt | updatedAt |
+| id | chainId | name | description | activeFrom | dbCreatedAt | dbUpdatedAt |
 | --- | --- | --- | --- | --- | --- | --- |
 | d033b969-9075-4ab3-8fd5-b54dd1c32c2b | 146 | — | — | — | 2026-03-11T22:14:19.796Z | 2026-03-11T22:14:19.796Z |
 
 
-Generated at: 2026-03-11T22:52:38.310Z
+Generated at: 2026-03-11T22:56:29.653Z
 Total: 81
