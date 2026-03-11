@@ -4,1785 +4,1100 @@
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 79
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 79 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0403613f-83d1-4b6e-b728-4195533f5867 | 0x799480972c756c963cb83e5c0ae654c5f7958a43981cd5a4e61c723aa1de5530 | success | — | — | 0x7710f61ff8cc189cbe2a40daf352c04ab1819bdcc4dc4f6965b97e725b14ddce | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000013200309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000007b3c54e17d618cc94dadfe7671c1e2f50c4ecc33000000000000000000000000000000000000000000000000000000006a70013c00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d80f679a47f78ce7d5af6fa2e7176189942ef4b000000000000000000000000000000000000000000000000000000006a70013c0000000000000000000000000000 | 79 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2026-02-03T02:50:45.170Z | 0x46b360011a84c5759680852ed90e6db44e18f08c | 2026-02-05T00:30:35.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.899Z | 2026-03-11T22:14:14.899Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0403613f-83d1-4b6e-b728-4195533f5867 | 0x799480972c756c96… | success | — | — | 0x7710f61ff8cc189c… | 0x40a2accbd92bca93… | 0 | present | 79 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2026-02-03T02:50:45.170Z | 0x46b360011a84c575… | 2026-02-05T00:30:35.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.899Z | 2026-03-11T22:14:14.899Z | present |
 
 ## Action: 130 — Safe 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 130 | d66c2baa-59f8-4888-a5fc-20d252e88f47 | 0x777fe5e84b88a503bff8de720077a5389aef223a96e76dc84a7ba5c330102547 | success | — | — | 0xa440d64d76e01fbb372ae76a94040a324d7bc768cceb31848e39ab9cb5d3c790 | 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 2 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:49:04.674Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2026-02-04T00:28:01.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:17.474Z | 2026-03-11T22:14:17.474Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 130 | d66c2baa-59f8-4888-a5fc-20d252e88f47 | 0x777fe5e84b88a503… | success | — | — | 0xa440d64d76e01fbb… | 0x6784fc9e931d7d5b… | 0 | present | 2 | 0x6784fc9e931d7d5b… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:49:04.674Z | 0x3fb1977194707262… | 2026-02-04T00:28:01.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:17.474Z | 2026-03-11T22:14:17.474Z | present |
 
 ## Action: 146 — Safe 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 146 | 8175426a-37a6-4b24-b95b-63c12df8b411 | 0xaa717950b3b570c9f0217677ae9d62357a13ecfc8cd49f909c326259559a7f11 | pending | — | — | — | 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 2 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:46:41.127Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:20.216Z | 2026-03-11T22:14:20.216Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 146 | 8175426a-37a6-4b24-b95b-63c12df8b411 | 0xaa717950b3b570c9… | pending | — | — | — | 0xcfd9277402f19632… | 0 | present | 2 | 0xcfd9277402f19632… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:46:41.127Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:20.216Z | 2026-03-11T22:14:20.216Z | present |
 
 ## Action: 59144 — Safe 0x5a1e5d7e09ca94506084a26304d53a138145bf52 — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x5a1e5d7e09ca94506084a26304d53a138145bf52 |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 59144 | 92f762b9-eb8f-41a0-a9e6-8549eba606b1 | 0x0bf46a0cec5d9ab068fe9d6828cd3359e897afeaf2d231357dda92de6d52a259 | success | — | — | 0xd33f1be1f98c15759fc39ca7df59d197bf76a689f57a8b5e11da23dc255490b5 | 0x5a1e5d7e09ca94506084a26304d53a138145bf52 | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 2 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:43:13.059Z | 0xb8dcad009e533066f12e408075e10e3a30f1f15a | 2026-02-04T00:21:06.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:25.513Z | 2026-03-11T22:14:25.513Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 59144 | 92f762b9-eb8f-41a0-a9e6-8549eba606b1 | 0x0bf46a0cec5d9ab0… | success | — | — | 0xd33f1be1f98c1575… | 0x5a1e5d7e09ca9450… | 0 | present | 2 | 0x5a1e5d7e09ca9450… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:43:13.059Z | 0xb8dcad009e533066… | 2026-02-04T00:21:06.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:25.513Z | 2026-03-11T22:14:25.513Z | present |
 
 ## Action: 5000 — Safe 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5000 | 1db23150-e51e-40fa-bc3d-f62136d6f5a3 | 0xf1f5211bd2d8f111f80d950dc4162939813b249fd600a0c90db1c317bfcc4c0e | success | — | — | 0x10fd5a52e565af21e7d7e3fb5f71f6694b7a5ebfcc2289a17d1bdbe430630830 | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 4 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:40:29.285Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2026-02-04T00:29:18.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:21.526Z | 2026-03-11T22:14:21.526Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5000 | 1db23150-e51e-40fa-bc3d-f62136d6f5a3 | 0xf1f5211bd2d8f111… | success | — | — | 0x10fd5a52e565af21… | 0x2127338f0ff71ecc… | 0 | present | 4 | 0x2127338f0ff71ecc… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:40:29.285Z | 0x3fb1977194707262… | 2026-02-04T00:29:18.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:21.526Z | 2026-03-11T22:14:21.526Z | present |
 
 ## Action: 10 — Safe 0x3ffd6c073a4ba24a113b18c8f373569640916a45 — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10 | 667f2d4d-64df-4314-a2b3-dcd88c3dee52 | 0x30efe760fb3433db107d6f6ce0da25cf80118068ac69cd78cea9c95898bb9130 | success | — | — | 0x31f6930ccae763ffd91b7b6357cd7540b1cda1851f3003163111cdc249e514fd | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 4 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:37:27.364Z | 0xc4e7263dd870a29f1cfe438d1a7db48547b16888 | 2026-02-04T00:23:17.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:16.161Z | 2026-03-11T22:14:16.161Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | 667f2d4d-64df-4314-a2b3-dcd88c3dee52 | 0x30efe760fb3433db… | success | — | — | 0x31f6930ccae763ff… | 0x3ffd6c073a4ba24a… | 0 | present | 4 | 0x3ffd6c073a4ba24a… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:37:27.364Z | 0xc4e7263dd870a29f… | 2026-02-04T00:23:17.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:16.161Z | 2026-03-11T22:14:16.161Z | present |
 
 ## Action: 534352 — Safe 0x0747a435b8a60070a7a111d015046d765098e4cc — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x0747a435b8a60070a7a111d015046d765098e4cc |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 534352 | d0b55b39-ff58-4e4a-9ce2-ed202d9d55d8 | 0xabe1162481b8a5aa443cbb04971a53158369995102e59acb1d3ab6e83ed8b6e5 | pending | — | — | — | 0x0747a435b8a60070a7a111d015046d765098e4cc | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 4 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:33:42.146Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:27.151Z | 2026-03-11T22:14:27.151Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 534352 | d0b55b39-ff58-4e4a-9ce2-ed202d9d55d8 | 0xabe1162481b8a5aa… | pending | — | — | — | 0x0747a435b8a60070… | 0 | present | 4 | 0x0747a435b8a60070… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:33:42.146Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:27.151Z | 2026-03-11T22:14:27.151Z | present |
 
 ## Action: 8453 — Safe 0x3cb4653f3b45f448d9100b118b75a1503281d2ee — nonce 5
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee |
-| nonce | 5 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8453 | bea3ab81-32f2-47e0-be4a-0b3889a24352 | 0x00e0726bbacc5c80af4f41eeb99a215345d522e8cb830191f0981b52ee18c24c | success | — | — | 0xc0c5484363ba86e363cd5aa85288f10f349a3b21ed22b9775ccdc3ffdbeb5d6d | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 5 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:25:54.520Z | 0x620d7e459cffcdc56a874536dc19147de801a4a1 | 2026-02-04T00:23:01.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:22.934Z | 2026-03-11T22:14:22.934Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8453 | bea3ab81-32f2-47e0-be4a-0b3889a24352 | 0x00e0726bbacc5c80… | success | — | — | 0xc0c5484363ba86e3… | 0x3cb4653f3b45f448… | 0 | present | 5 | 0x3cb4653f3b45f448… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:25:54.520Z | 0x620d7e459cffcdc5… | 2026-02-04T00:23:01.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:22.934Z | 2026-03-11T22:14:22.934Z | present |
 
 ## Action: 42161 — Safe 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d — nonce 5
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d |
-| nonce | 5 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 42161 | 35c9a02e-783d-441f-b270-357dc35b8198 | 0x0a1940c393ab9ced9b6c646d520b78e80c6db0e57f51e67a735b540295140341 | success | — | — | 0x21800a5c713c88090b80b7f69e5efe0b87e561dbfc14737f154ab47036d75e09 | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 5 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:22:34.184Z | 0x417b4adc279743fc49f047c323fc668db9e600d8 | 2026-02-04T00:22:16.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:24.179Z | 2026-03-11T22:14:24.179Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 42161 | 35c9a02e-783d-441f-b270-357dc35b8198 | 0x0a1940c393ab9ced… | success | — | — | 0x21800a5c713c8809… | 0x78e6317dd6d43ddb… | 0 | present | 5 | 0x78e6317dd6d43ddb… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:22:34.184Z | 0x417b4adc279743fc… | 2026-02-04T00:22:16.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:24.179Z | 2026-03-11T22:14:24.179Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 6
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 6 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | 91530a4a-863a-4eb3-b295-a52c7d2419de | 0x98ec57fc3ab49f63b9d4c18c8018af4fb54d8088e7a7f010cf9e50eecab8f75b | success | — | — | 0x6b59e2889db4050e0d3a46d4a9d038c9474debb3c353512a39edceba26ba6d3c | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 6 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:14:38.436Z | 0xc4e7263dd870a29f1cfe438d1a7db48547b16888 | 2026-02-17T23:46:43.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:19.059Z | 2026-03-11T22:14:19.059Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | 91530a4a-863a-4eb3-b295-a52c7d2419de | 0x98ec57fc3ab49f63… | success | — | — | 0x6b59e2889db4050e… | 0x8ab717cac3cbc493… | 0 | present | 6 | 0x8ab717cac3cbc493… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:14:38.436Z | 0xc4e7263dd870a29f… | 2026-02-17T23:46:43.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:19.059Z | 2026-03-11T22:14:19.059Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 78
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 78 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 105a9122-9d8d-43f2-8646-b2bb883b58c8 | 0x3d6a31f36c1981106272b71d699a717e31faccc829f29522a3f74f4b35a97050 | success | — | — | 0xfc8bc99c2b5587a2c60476d03d9892043982b9085e67c44da04b5d826a773d5d | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xf8dc5dd9000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000000000000000000000000000000000000005 | 78 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2026-01-30T08:07:22.953Z | 0xb8dcad009e533066f12e408075e10e3a30f1f15a | 2026-02-04T00:20:23.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.907Z | 2026-03-11T22:14:14.907Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 105a9122-9d8d-43f2-8646-b2bb883b58c8 | 0x3d6a31f36c198110… | success | — | — | 0xfc8bc99c2b5587a2… | 0xbbf3f1421d886e9b… | 0 | present | 78 | 0xbbf3f1421d886e9b… | 0xd17b14ff80d3bf8e… | 2026-01-30T08:07:22.953Z | 0xb8dcad009e533066… | 2026-02-04T00:20:23.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.907Z | 2026-03-11T22:14:14.907Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 5
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 5 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | 16bc1f1c-61b7-44fd-90c6-1e9bfd3ff27b | 0x8b0a1999188bf045a3dadef1123c1e27255fc3639cf7e585035291efba0a1067 | success | — | — | 0xd49d6590563b72328608a09bf2bff0c391cef1dd55a7a0dc52fb18e2f92c1418 | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 5 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2026-01-20T14:45:55.674Z | 0xc4e7263dd870a29f1cfe438d1a7db48547b16888 | 2026-02-17T23:46:19.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:19.068Z | 2026-03-11T22:14:19.068Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | 16bc1f1c-61b7-44fd-90c6-1e9bfd3ff27b | 0x8b0a1999188bf045… | success | — | — | 0xd49d6590563b7232… | 0x8ab717cac3cbc493… | 0 | present | 5 | 0x8ab717cac3cbc493… | 0x9a73d57bb1fb280c… | 2026-01-20T14:45:55.674Z | 0xc4e7263dd870a29f… | 2026-02-17T23:46:19.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:19.068Z | 2026-03-11T22:14:19.068Z | present |
 
 ## Action: 130 — Safe 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 130 | 0ef645f4-3628-42f7-b92b-f94cbfc81ef0 | 0xf68c6bf485285bfcf6176c1f62827c49915cad6b1b9b37c527f8a5354c9d5284 | success | — | — | 0xc441e9d607cf5b992ce5689691d56134358df08abb6752e13a28facd29a99eca | 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 1 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:36:05.344Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2026-02-04T00:21:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:17.482Z | 2026-03-11T22:14:17.482Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 130 | 0ef645f4-3628-42f7-b92b-f94cbfc81ef0 | 0xf68c6bf485285bfc… | success | — | — | 0xc441e9d607cf5b99… | 0x6784fc9e931d7d5b… | 0 | present | 1 | 0x6784fc9e931d7d5b… | 0xdd659911ecbd4458… | 2026-01-20T03:36:05.344Z | 0x3fb1977194707262… | 2026-02-04T00:21:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:17.482Z | 2026-03-11T22:14:17.482Z | present |
 
 ## Action: 146 — Safe 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 146 | 4288d36c-0e1a-463d-9435-8fef4d52fcd3 | 0xda7f3386ceb95ab665738a0f00dd9e85bf6476fcfca67e0a86a16a1d6037f897 | pending | — | — | — | 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 1 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:35:27.437Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:20.220Z | 2026-03-11T22:14:20.220Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 146 | 4288d36c-0e1a-463d-9435-8fef4d52fcd3 | 0xda7f3386ceb95ab6… | pending | — | — | — | 0xcfd9277402f19632… | 0 | present | 1 | 0xcfd9277402f19632… | 0xdd659911ecbd4458… | 2026-01-20T03:35:27.437Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:20.220Z | 2026-03-11T22:14:20.220Z | present |
 
 ## Action: 59144 — Safe 0x5a1e5d7e09ca94506084a26304d53a138145bf52 — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x5a1e5d7e09ca94506084a26304d53a138145bf52 |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 59144 | a795791a-661d-4bad-a143-7e9387358284 | 0x3fca7f67eff499cd3c71e6555dc930993b144367ddb05e572ac3e555067d3141 | success | — | — | 0xd33f1be1f98c15759fc39ca7df59d197bf76a689f57a8b5e11da23dc255490b5 | 0x5a1e5d7e09ca94506084a26304d53a138145bf52 | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 1 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:34:42.715Z | 0xb8dcad009e533066f12e408075e10e3a30f1f15a | 2026-02-04T00:21:06.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:25.516Z | 2026-03-11T22:14:25.516Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 59144 | a795791a-661d-4bad-a143-7e9387358284 | 0x3fca7f67eff499cd… | success | — | — | 0xd33f1be1f98c1575… | 0x5a1e5d7e09ca9450… | 0 | present | 1 | 0x5a1e5d7e09ca9450… | 0xdd659911ecbd4458… | 2026-01-20T03:34:42.715Z | 0xb8dcad009e533066… | 2026-02-04T00:21:06.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:25.516Z | 2026-03-11T22:14:25.516Z | present |
 
 ## Action: 5000 — Safe 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5000 | 1eb46d24-b4af-40ce-a152-3064660a8e6f | 0xce7a051adc239a9034cba32b42933a9ed9b6dbe19dbf89f35bb95402d2ac89fd | success | — | — | 0xde8e0e12073356c864f47ef1a9ebf4e6d8db2cbd8de8926dd429641ae913ade6 | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 3 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:33:59.519Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2026-02-04T00:22:48.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:21.535Z | 2026-03-11T22:14:21.535Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5000 | 1eb46d24-b4af-40ce-a152-3064660a8e6f | 0xce7a051adc239a90… | success | — | — | 0xde8e0e12073356c8… | 0x2127338f0ff71ecc… | 0 | present | 3 | 0x2127338f0ff71ecc… | 0xdd659911ecbd4458… | 2026-01-20T03:33:59.519Z | 0x3fb1977194707262… | 2026-02-04T00:22:48.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:21.535Z | 2026-03-11T22:14:21.535Z | present |
 
 ## Action: 10 — Safe 0x3ffd6c073a4ba24a113b18c8f373569640916a45 — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10 | 48ad3a8e-6264-4a57-8cf5-4e0164b1347c | 0x28ff0afd73b0d3ca5421c997a279d262fd90de75ba5427578b87cca27321ab9a | success | — | — | 0x31f6930ccae763ffd91b7b6357cd7540b1cda1851f3003163111cdc249e514fd | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 3 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:33:18.630Z | 0xc4e7263dd870a29f1cfe438d1a7db48547b16888 | 2026-02-04T00:23:17.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:16.169Z | 2026-03-11T22:14:16.169Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | 48ad3a8e-6264-4a57-8cf5-4e0164b1347c | 0x28ff0afd73b0d3ca… | success | — | — | 0x31f6930ccae763ff… | 0x3ffd6c073a4ba24a… | 0 | present | 3 | 0x3ffd6c073a4ba24a… | 0xdd659911ecbd4458… | 2026-01-20T03:33:18.630Z | 0xc4e7263dd870a29f… | 2026-02-04T00:23:17.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:16.169Z | 2026-03-11T22:14:16.169Z | present |
 
 ## Action: 534352 — Safe 0x0747a435b8a60070a7a111d015046d765098e4cc — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x0747a435b8a60070a7a111d015046d765098e4cc |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 534352 | 035f87a2-d27f-4817-a8b2-b22e97b5e3f6 | 0x40af0484ec2b0e38534ba78461bd4a00fc1dd75daa20e76c6e08f0b68292d913 | pending | — | — | — | 0x0747a435b8a60070a7a111d015046d765098e4cc | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 3 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:32:31.876Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:27.159Z | 2026-03-11T22:14:27.159Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 534352 | 035f87a2-d27f-4817-a8b2-b22e97b5e3f6 | 0x40af0484ec2b0e38… | pending | — | — | — | 0x0747a435b8a60070… | 0 | present | 3 | 0x0747a435b8a60070… | 0xdd659911ecbd4458… | 2026-01-20T03:32:31.876Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:27.159Z | 2026-03-11T22:14:27.159Z | present |
 
 ## Action: 8453 — Safe 0x3cb4653f3b45f448d9100b118b75a1503281d2ee — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8453 | c2a67b15-472d-4221-9316-276d5518e614 | 0x669cfac1ac1d4f67d5d6bd7bf07a4c63ac080fa7be29cf55b3489cfb325c88a9 | success | — | — | 0xc0c5484363ba86e363cd5aa85288f10f349a3b21ed22b9775ccdc3ffdbeb5d6d | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 4 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:31:47.975Z | 0x620d7e459cffcdc56a874536dc19147de801a4a1 | 2026-02-04T00:23:01.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:22.938Z | 2026-03-11T22:14:22.938Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8453 | c2a67b15-472d-4221-9316-276d5518e614 | 0x669cfac1ac1d4f67… | success | — | — | 0xc0c5484363ba86e3… | 0x3cb4653f3b45f448… | 0 | present | 4 | 0x3cb4653f3b45f448… | 0xdd659911ecbd4458… | 2026-01-20T03:31:47.975Z | 0x620d7e459cffcdc5… | 2026-02-04T00:23:01.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:22.938Z | 2026-03-11T22:14:22.938Z | present |
 
 ## Action: 42161 — Safe 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 42161 | f84346dc-55eb-42a9-bd11-26a721b82390 | 0xc5fbab87623b6bbbe9523f9a7f9e54857ea233862e33412141ace223bef40a58 | success | — | — | 0x21800a5c713c88090b80b7f69e5efe0b87e561dbfc14737f154ab47036d75e09 | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 4 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:28:30.522Z | 0x417b4adc279743fc49f047c323fc668db9e600d8 | 2026-02-04T00:22:16.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:24.188Z | 2026-03-11T22:14:24.188Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 42161 | f84346dc-55eb-42a9-bd11-26a721b82390 | 0xc5fbab87623b6bbb… | success | — | — | 0x21800a5c713c8809… | 0x78e6317dd6d43ddb… | 0 | present | 4 | 0x78e6317dd6d43ddb… | 0xdd659911ecbd4458… | 2026-01-20T03:28:30.522Z | 0x417b4adc279743fc… | 2026-02-04T00:22:16.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:24.188Z | 2026-03-11T22:14:24.188Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 77
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 77 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 9b88bdae-7298-44be-a0c9-9b611dd41cf0 | 0x7d42c9a22e4bf344760ed4411e23e1e4285e8193889e7e6fbc19cfb0c511df71 | success | — | — | 0x7be65984fcbbfc3d9be74bf72e792f947469308557c00552e8e0ae354aa35ab5 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b00000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc000000000000000000000000eb5f68394c0c9dccd99bffbac1b5f90002d43627 | 77 | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2026-01-20T03:26:13.491Z | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2026-02-02T15:43:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.909Z | 2026-03-11T22:14:14.909Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 9b88bdae-7298-44be-a0c9-9b611dd41cf0 | 0x7d42c9a22e4bf344… | success | — | — | 0x7be65984fcbbfc3d… | 0xbbf3f1421d886e9b… | 0 | present | 77 | 0xbbf3f1421d886e9b… | 0xdd659911ecbd4458… | 2026-01-20T03:26:13.491Z | 0x4a3a60ee1007a477… | 2026-02-02T15:43:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.909Z | 2026-03-11T22:14:14.909Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 76
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 76 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 6a0297b9-4841-495d-940d-092892a0ea59 | 0xe28495c9fa9ef6aec9d4750d3a3fce2479b722438e6c9043b904f0ebc4bf485a | success | — | — | 0x3277e96e2cc1c883f4c7fa4908fa0a8525b4895a892ab94bf9f8aa9a352df1bd | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000026400309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000089f299103d8627557906edf5bf197fe131bce8db0000000000000000000000000000000000000000000000000000000069a3d78c00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d57f3c47c4abaf24371bf11e2c994b32d96093e0000000000000000000000000000000000000000000000000000000069a3d78c00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000871fac073d4bf00d364167f766adaa9649e5e26c0000000000000000000000000000000000000000000000000000000069a3d78c00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000bfe2ff554d56527f679b746c777d73157724788d0000000000000000000000000000000000000000000000000000000069a3d78c00000000000000000000000000000000000000000000000000000000 | 76 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2026-01-15T06:08:59.939Z | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2026-01-19T18:56:47.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.910Z | 2026-03-11T22:14:14.910Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 6a0297b9-4841-495d-940d-092892a0ea59 | 0xe28495c9fa9ef6ae… | success | — | — | 0x3277e96e2cc1c883… | 0x40a2accbd92bca93… | 0 | present | 76 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2026-01-15T06:08:59.939Z | 0x4a3a60ee1007a477… | 2026-01-19T18:56:47.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.910Z | 2026-03-11T22:14:14.910Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 75
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 75 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b474f128-f79a-4047-be7d-a30ed91b65bf | 0x4e173c211f1ab636db73660e9845391df70dbd6463fe49a69494675271fd2539 | success | — | — | 0xf57c5e9eac327841ee63cf8495c7869a50872629e9d9fc86ab5bd3b0ce4f4c1d | 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0 | 167997800000000000000 | — | 75 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-12-28T20:48:20.224Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2026-01-07T01:42:35.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.913Z | 2026-03-11T22:14:14.913Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b474f128-f79a-4047-be7d-a30ed91b65bf | 0x4e173c211f1ab636… | success | — | — | 0xf57c5e9eac327841… | 0x7f39c581f595b53c… | 167997800000000000000 | — | 75 | 0xbbf3f1421d886e9b… | 0x2b384212edc04ae8… | 2025-12-28T20:48:20.224Z | 0x3fb1977194707262… | 2026-01-07T01:42:35.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.913Z | 2026-03-11T22:14:14.913Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 74
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 74 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 77df0cdc-3793-452c-b2d3-f545f2fa61c3 | 0xe59d0ae11da62dc89ac4a97af6d3d1e5743f9fc8ed002861581b5f1f5f6e8d43 | success | — | — | 0x3c7cf7a53c68b3bc412ea80ad898ec81003d64f2aa4c54b16982186fdbfd0173 | 0xa1bb2061febaf91738f104a19073c84589b92b53 | 100000000000000 | — | 74 | 0xa1bb2061febaf91738f104a19073c84589b92b53 | 2025-12-17T07:50:00.432Z | 0x46b360011a84c5759680852ed90e6db44e18f08c | 2025-12-17T14:16:11.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.914Z | 2026-03-11T22:14:14.914Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 77df0cdc-3793-452c-b2d3-f545f2fa61c3 | 0xe59d0ae11da62dc8… | success | — | — | 0x3c7cf7a53c68b3bc… | 0xa1bb2061febaf917… | 100000000000000 | — | 74 | 0xbbf3f1421d886e9b… | 0xa1bb2061febaf917… | 2025-12-17T07:50:00.432Z | 0x46b360011a84c575… | 2025-12-17T14:16:11.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.914Z | 2026-03-11T22:14:14.914Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 73
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 73 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 199300e4-50ac-4cbf-88bc-9e62c391ebc3 | 0xda9f83a2acb35391fa2edfb0489aba2e9071638bdb65653ecfc6a3e657a253fe | success | — | — | 0x24e479a0ef97dbdf3cabfd596990325f381a2fa56bc39cc7c6137f6f3756e171 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000013200309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000007b3c54e17d618cc94dadfe7671c1e2f50c4ecc33000000000000000000000000000000000000000000000000000000006962d0b000309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d80f679a47f78ce7d5af6fa2e7176189942ef4b000000000000000000000000000000000000000000000000000000006962d0b00000000000000000000000000000 | 73 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-11-10T22:21:42.175Z | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2025-11-11T17:14:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.916Z | 2026-03-11T22:14:14.916Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 199300e4-50ac-4cbf-88bc-9e62c391ebc3 | 0xda9f83a2acb35391… | success | — | — | 0x24e479a0ef97dbdf… | 0x40a2accbd92bca93… | 0 | present | 73 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-11-10T22:21:42.175Z | 0xdd659911ecbd4458… | 2025-11-11T17:14:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.916Z | 2026-03-11T22:14:14.916Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 72
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 72 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | fd547812-d6aa-4610-aa58-f588bc3406d5 | 0xb259532f64a781757e5edb972c1359495090fcff31f3e5d0472e6345fd08d3fb | success | — | — | 0x5f96b7c10c831a41e318e6f821519afdba1e3ec313725213d56c3ad17d492cdf | 0x3afdc9bca9213a35503b077a6072f3d0d5ab0840 | 0 | 0x44c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 | 72 | 0xa1bb2061febaf91738f104a19073c84589b92b53 | 2025-11-07T15:45:03.784Z | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2025-11-07T17:18:11.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.917Z | 2026-03-11T22:14:14.917Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | fd547812-d6aa-4610-aa58-f588bc3406d5 | 0xb259532f64a78175… | success | — | — | 0x5f96b7c10c831a41… | 0x3afdc9bca9213a35… | 0 | present | 72 | 0xbbf3f1421d886e9b… | 0xa1bb2061febaf917… | 2025-11-07T15:45:03.784Z | 0xdd659911ecbd4458… | 2025-11-07T17:18:11.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.917Z | 2026-03-11T22:14:14.917Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 70
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 70 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 3491bc6f-3cd7-4f52-8fa4-584b53dc3e76 | 0x288c3ea4f90b92ee9fb15efbbb53a069fc34278acd1832fb503e8c07606abd3e | success | — | — | 0x64ea70192ddc9e52baa6f465b67db1c505791bb044945b8d4f04a519dd5bf10f | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 70 | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2025-11-06T19:27:16.130Z | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2025-11-06T19:43:23.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.921Z | 2026-03-11T22:14:14.921Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 3491bc6f-3cd7-4f52-8fa4-584b53dc3e76 | 0x288c3ea4f90b92ee… | success | — | — | 0x64ea70192ddc9e52… | 0xbbf3f1421d886e9b… | 0 | — | 70 | 0xbbf3f1421d886e9b… | 0x4a3a60ee1007a477… | 2025-11-06T19:27:16.130Z | 0x4a3a60ee1007a477… | 2025-11-06T19:43:23.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.921Z | 2026-03-11T22:14:14.921Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 71
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 71 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 4d0e76d7-9770-494a-ac4d-70817371f4fc | 0xc6fe40445892a0bf91584beda7b4743bda0b34b0796d20b062b1b95ae14374ea | success | — | — | 0x652f423b3dc854a084a4ad8615da33334c80053957f3561fdcae53c34b4c98fb | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001f200c3d688b66703497daa19211eedff47f25384cdc3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005d409e56d886231adaf00c8775665ad0f9897b56000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d07000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 | 71 | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2025-11-06T19:25:57.734Z | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2025-11-06T19:47:35.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.920Z | 2026-03-11T22:14:14.920Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 4d0e76d7-9770-494a-ac4d-70817371f4fc | 0xc6fe40445892a0bf… | success | — | — | 0x652f423b3dc854a0… | 0x40a2accbd92bca93… | 0 | present | 71 | 0xbbf3f1421d886e9b… | 0x4a3a60ee1007a477… | 2025-11-06T19:25:57.734Z | 0x4a3a60ee1007a477… | 2025-11-06T19:47:35.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.920Z | 2026-03-11T22:14:14.920Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 70
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 70 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0942d09d-a058-4c46-9970-5e527e305730 | 0x3f073e3cec124741ab7924bb843afc861a3244abc93d66c7f90d9e6545f2ff28 | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002eb00c3d688b66703497daa19211eedff47f25384cdc3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003afdc9bca9213a35503b077a6072f3d0d5ab0840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005d409e56d886231adaf00c8775665ad0f9897b56000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 | 70 | 0xa1bb2061febaf91738f104a19073c84589b92b53 | 2025-11-04T16:18:34.540Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:14.922Z | 2026-03-11T22:14:14.922Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0942d09d-a058-4c46-9970-5e527e305730 | 0x3f073e3cec124741… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 70 | 0xbbf3f1421d886e9b… | 0xa1bb2061febaf917… | 2025-11-04T16:18:34.540Z | — | — | 5 | 4 | 4 entries | 2026-03-11T22:14:14.922Z | 2026-03-11T22:14:14.922Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 69
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 69 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b3ceca83-27ce-4817-9d15-5afcdec7ceb1 | 0xf4c9180d6d568140f12e80be43cf087e4c8a1b8036a52096dff5da0107b4f3f1 | success | — | — | 0x16fad54883db273e52be49541c2c845b4ea01e81cf34c951e6292cf2238c3022 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002eb00c3d688b66703497daa19211eedff47f25384cdc3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003afdc9bca9213a35503b077a6072f3d0d5ab0840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005d409e56d886231adaf00c8775665ad0f9897b56000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 | 69 | 0xa1bb2061febaf91738f104a19073c84589b92b53 | 2025-11-04T16:13:28.546Z | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2025-11-04T19:57:23.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.924Z | 2026-03-11T22:14:14.924Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b3ceca83-27ce-4817-9d15-5afcdec7ceb1 | 0xf4c9180d6d568140… | success | — | — | 0x16fad54883db273e… | 0x40a2accbd92bca93… | 0 | present | 69 | 0xbbf3f1421d886e9b… | 0xa1bb2061febaf917… | 2025-11-04T16:13:28.546Z | 0x4a3a60ee1007a477… | 2025-11-04T19:57:23.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.924Z | 2026-03-11T22:14:14.924Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 68
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 68 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | d819bc32-ed8d-4078-9c21-e9bc360ce538 | 0xa8f3dd609943bac2408ea31109fe84a85f569c719ec3e686a48839d418c03327 | success | — | — | 0x2f2fc139b23aeb751628c98b15c2bff64510e9f941d551a98e960b8ab7ca6a5e | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000026400309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000089f299103d8627557906edf5bf197fe131bce8db00000000000000000000000000000000000000000000000000000000693097bf00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d57f3c47c4abaf24371bf11e2c994b32d96093e00000000000000000000000000000000000000000000000000000000693097bf00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000871fac073d4bf00d364167f766adaa9649e5e26c00000000000000000000000000000000000000000000000000000000693097bf00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000bfe2ff554d56527f679b746c777d73157724788d00000000000000000000000000000000000000000000000000000000693097bf00000000000000000000000000000000000000000000000000000000 | 68 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-10-30T20:06:46.527Z | 0x4a3a60ee1007a477edfccb7182ee7f4ef876fa25 | 2025-11-04T19:52:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.926Z | 2026-03-11T22:14:14.926Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | d819bc32-ed8d-4078-9c21-e9bc360ce538 | 0xa8f3dd609943bac2… | success | — | — | 0x2f2fc139b23aeb75… | 0x40a2accbd92bca93… | 0 | present | 68 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-10-30T20:06:46.527Z | 0x4a3a60ee1007a477… | 2025-11-04T19:52:59.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.926Z | 2026-03-11T22:14:14.926Z | present |
 
 ## Action: 146 — Safe 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xcfd9277402f19632330cbbb8fa6ceade03e028b0 |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 146 | e1524ed7-69ee-450f-b3df-c83faa525d62 | 0x17f924b4381fc68a4c118ece14f1f0ef9bd5f3ccee0326c34caf3df0da821e82 | success | — | — | 0xb2e4902972bc562a670f06d88efa44a7644b939e30e5608759102b6ce3dd269b | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002a400cfd9277402f19632330cbbb8fa6ceade03e028b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c00cfd9277402f19632330cbbb8fa6ceade03e028b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e189000000000000000000000000000000000000000000000000000000000000000400cfd9277402f19632330cbbb8fa6ceade03e028b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b53000000000000000000000000000000000000000000000000000000000000000400cfd9277402f19632330cbbb8fa6ceade03e028b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa25000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000 | 0 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-30T00:02:58.493Z | 0xb8dcad009e533066f12e408075e10e3a30f1f15a | 2025-10-01T03:16:14.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:20.224Z | 2026-03-11T22:14:20.224Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 146 | e1524ed7-69ee-450f-b3df-c83faa525d62 | 0x17f924b4381fc68a… | success | — | — | 0xb2e4902972bc562a… | 0x40a2accbd92bca93… | 0 | present | 0 | 0xcfd9277402f19632… | 0x9a73d57bb1fb280c… | 2025-09-30T00:02:58.493Z | 0xb8dcad009e533066… | 2025-10-01T03:16:14.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:20.224Z | 2026-03-11T22:14:20.224Z | present |
 
 ## Action: 130 — Safe 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x6784fc9e931d7d5b1075e665a4016c299ee6c31b |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 130 | 9322444b-51c7-4981-949a-5e62c7bfa736 | 0xd1c3103621e50d71fdef44dad05be8e913fb5ec07887d317550833c35572c2a1 | success | — | — | 0x0b1c1d76b1f0d489f137ccf14095161d0e504598a27b4bb43fcd3a318c2bc49c | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002a4006784fc9e931d7d5b1075e665a4016c299ee6c31b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c006784fc9e931d7d5b1075e665a4016c299ee6c31b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e1890000000000000000000000000000000000000000000000000000000000000004006784fc9e931d7d5b1075e665a4016c299ee6c31b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004006784fc9e931d7d5b1075e665a4016c299ee6c31b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa25000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000 | 0 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-24T21:55:51.103Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2025-09-29T21:35:33.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:17.485Z | 2026-03-11T22:14:17.485Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 130 | 9322444b-51c7-4981-949a-5e62c7bfa736 | 0xd1c3103621e50d71… | success | — | — | 0x0b1c1d76b1f0d489… | 0x40a2accbd92bca93… | 0 | present | 0 | 0x6784fc9e931d7d5b… | 0x9a73d57bb1fb280c… | 2025-09-24T21:55:51.103Z | 0x3fb1977194707262… | 2025-09-29T21:35:33.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:17.485Z | 2026-03-11T22:14:17.485Z | present |
 
 ## Action: 59144 — Safe 0x5a1e5d7e09ca94506084a26304d53a138145bf52 — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x5a1e5d7e09ca94506084a26304d53a138145bf52 |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 59144 | ed33ef1a-4484-4646-9c50-e55c85663fe4 | 0xd2291bd192bc87096efa09fffe5a96ff31614420d1b367c2c469d947f6cc6b31 | success | — | — | 0xabb66596752063913f783c83bbb757737484748cf827ab2fee9663556755e47b | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002a4005a1e5d7e09ca94506084a26304d53a138145bf5200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c005a1e5d7e09ca94506084a26304d53a138145bf5200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e1890000000000000000000000000000000000000000000000000000000000000004005a1e5d7e09ca94506084a26304d53a138145bf52000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004005a1e5d7e09ca94506084a26304d53a138145bf52000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa25000000000000000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000 | 0 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-24T21:48:11.618Z | 0xb8dcad009e533066f12e408075e10e3a30f1f15a | 2025-09-29T21:34:30.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:25.521Z | 2026-03-11T22:14:25.521Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 59144 | ed33ef1a-4484-4646-9c50-e55c85663fe4 | 0xd2291bd192bc8709… | success | — | — | 0xabb6659675206391… | 0x40a2accbd92bca93… | 0 | present | 0 | 0x5a1e5d7e09ca9450… | 0x9a73d57bb1fb280c… | 2025-09-24T21:48:11.618Z | 0xb8dcad009e533066… | 2025-09-29T21:34:30.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:25.521Z | 2026-03-11T22:14:25.521Z | present |
 
 ## Action: 534352 — Safe 0x0747a435b8a60070a7a111d015046d765098e4cc — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x0747a435b8a60070a7a111d015046d765098e4cc |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 534352 | dee51dcb-e6cf-4cc3-a559-535fed1f1260 | 0xf8fef2489d06c1aa81d7a1667776045b6a83ae002f789289c4ffa3c01b1ed492 | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000172000747a435b8a60070a7a111d015046d765098e4cc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c000747a435b8a60070a7a111d015046d765098e4cc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 2 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-24T15:37:58.767Z | — | — | 5 | 3 | 3 entries | 2026-03-11T22:14:27.161Z | 2026-03-11T22:14:27.161Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 534352 | dee51dcb-e6cf-4cc3-a559-535fed1f1260 | 0xf8fef2489d06c1aa… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 2 | 0x0747a435b8a60070… | 0x9a73d57bb1fb280c… | 2025-09-24T15:37:58.767Z | — | — | 5 | 3 | 3 entries | 2026-03-11T22:14:27.161Z | 2026-03-11T22:14:27.161Z | present |
 
 ## Action: 5000 — Safe 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5000 | 7b900df9-6a49-44c6-918d-bf6c39aca499 | 0x9c7880dad1ffb78b9830f0d1680c398df8714c4ad811934765c1dc81ee8c6b61 | success | — | — | 0xa71fc9dc98cd1bb391a3a2846be7711847a53b95b928f8c39fb579130cbfda06 | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000172002127338f0ff71ecc779dce407d95c7d32f7c5f4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c002127338f0ff71ecc779dce407d95c7d32f7c5f4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 2 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-24T15:36:56.544Z | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-25T18:50:48.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:21.537Z | 2026-03-11T22:14:21.537Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5000 | 7b900df9-6a49-44c6-918d-bf6c39aca499 | 0x9c7880dad1ffb78b… | success | — | — | 0xa71fc9dc98cd1bb3… | 0xa1dabef33b3b82c7… | 0 | present | 2 | 0x2127338f0ff71ecc… | 0x9a73d57bb1fb280c… | 2025-09-24T15:36:56.544Z | 0x9a73d57bb1fb280c… | 2025-09-25T18:50:48.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:21.537Z | 2026-03-11T22:14:21.537Z | present |
 
 ## Action: 10 — Safe 0x3ffd6c073a4ba24a113b18c8f373569640916a45 — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10 | 5991a722-f821-4410-af0e-dfcdced3ea60 | 0x9edf88b791b8a6262d34b2d47cf9654ce5a41fff654c839184017a18c20d8a4c | success | — | — | 0x337e4b4dc7e695acf2e9e0c3135e8b65d461eaabef74a860645c2e56b50bf4cb | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000172003ffd6c073a4ba24a113b18c8f373569640916a4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c003ffd6c073a4ba24a113b18c8f373569640916a4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 2 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-23T22:14:04.626Z | 0xba9a3c0a22baebe8c4926227bde32d6edc0d5d28 | 2025-09-25T18:51:05.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:16.171Z | 2026-03-11T22:14:16.171Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | 5991a722-f821-4410-af0e-dfcdced3ea60 | 0x9edf88b791b8a626… | success | — | — | 0x337e4b4dc7e695ac… | 0xa1dabef33b3b82c7… | 0 | present | 2 | 0x3ffd6c073a4ba24a… | 0x9a73d57bb1fb280c… | 2025-09-23T22:14:04.626Z | 0xba9a3c0a22baebe8… | 2025-09-25T18:51:05.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:16.171Z | 2026-03-11T22:14:16.171Z | present |
 
 ## Action: 42161 — Safe 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 42161 | 127e84a8-ad5b-4577-96ac-5a3c0432e449 | 0x384f5ec7e181a04fb4bb0b2ca39712d58abc9bafcdc119cae14046045081f6f4 | success | — | — | 0x14b3f8dc76d869db410f04af2754c96e2aeb2006e4a293cc9cb73992be0f7741 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001720078e6317dd6d43ddbda00dce32c2cbafc99361a9d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c0078e6317dd6d43ddbda00dce32c2cbafc99361a9d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 3 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-23T22:12:55.684Z | 0xb3aa47edbc9a1178b56bb55d1a9e3821845870e8 | 2025-09-25T18:51:13.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:24.191Z | 2026-03-11T22:14:24.191Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 42161 | 127e84a8-ad5b-4577-96ac-5a3c0432e449 | 0x384f5ec7e181a04f… | success | — | — | 0x14b3f8dc76d869db… | 0x40a2accbd92bca93… | 0 | present | 3 | 0x78e6317dd6d43ddb… | 0x9a73d57bb1fb280c… | 2025-09-23T22:12:55.684Z | 0xb3aa47edbc9a1178… | 2025-09-25T18:51:13.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:24.191Z | 2026-03-11T22:14:24.191Z | present |
 
 ## Action: 8453 — Safe 0x3cb4653f3b45f448d9100b118b75a1503281d2ee — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8453 | a9861c95-c3bd-4f61-a325-56f435205125 | 0xb62838453abd2384f99c7fa94484cd51810373289d8299f7bd5304b1d05f3c7d | success | — | — | 0x009f3692e5222329d879e5d7143f63fbc5cd680e62157607363ad7659e2be576 | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000172003cb4653f3b45f448d9100b118b75a1503281d2ee00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c003cb4653f3b45f448d9100b118b75a1503281d2ee00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 3 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-23T22:11:46.231Z | 0x620d7e459cffcdc56a874536dc19147de801a4a1 | 2025-09-25T18:51:27.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:22.942Z | 2026-03-11T22:14:22.942Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8453 | a9861c95-c3bd-4f61-a325-56f435205125 | 0xb62838453abd2384… | success | — | — | 0x009f3692e5222329… | 0xa1dabef33b3b82c7… | 0 | present | 3 | 0x3cb4653f3b45f448… | 0x9a73d57bb1fb280c… | 2025-09-23T22:11:46.231Z | 0x620d7e459cffcdc5… | 2025-09-25T18:51:27.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:22.942Z | 2026-03-11T22:14:22.942Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | 9f7270ac-a859-470e-bbe1-8975a2ef3745 | 0x9e8787063813723b5eaa52df09ef32c323d76a88358270cb45444f3349bb2ee4 | success | — | — | 0x4b6fee1a90e48892651fadbaedd4dfaf8546ff817c83fd0a707619043673adcf | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000172008ab717cac3cbc4934e63825b88442f5810aaf6e500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c008ab717cac3cbc4934e63825b88442f5810aaf6e500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 4 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-23T22:10:05.062Z | 0x620d7e459cffcdc56a874536dc19147de801a4a1 | 2025-09-25T18:51:39.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:19.071Z | 2026-03-11T22:14:19.071Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | 9f7270ac-a859-470e-bbe1-8975a2ef3745 | 0x9e8787063813723b… | success | — | — | 0x4b6fee1a90e48892… | 0x40a2accbd92bca93… | 0 | present | 4 | 0x8ab717cac3cbc493… | 0x9a73d57bb1fb280c… | 2025-09-23T22:10:05.062Z | 0x620d7e459cffcdc5… | 2025-09-25T18:51:39.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:19.071Z | 2026-03-11T22:14:19.071Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 67
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 67 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 9deb6deb-5d97-4f3f-936b-ee8ca3bde4f5 | 0xac63d59d6ceee3e8671d223733c01d49d19265cd3df796e877989fcc2eb52af9 | success | — | — | 0x781575892446097869335ec286d5d379b658786be37189d3d99efbc11665ec6e | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000017200bbf3f1421d886e9b2c5d716b5192ac998af2012c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f54600000000000000000000000046b360011a84c5759680852ed90e6db44e18f08c00bbf3f1421d886e9b2c5d716b5192ac998af2012c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064f8dc5dd90000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000054a37d93e57c5da659f508069cf65a381b61e18900000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 67 | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-23T20:46:53.286Z | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-09-25T18:52:11.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.928Z | 2026-03-11T22:14:14.928Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 9deb6deb-5d97-4f3f-936b-ee8ca3bde4f5 | 0xac63d59d6ceee3e8… | success | — | — | 0x7815758924460978… | 0x40a2accbd92bca93… | 0 | present | 67 | 0xbbf3f1421d886e9b… | 0x9a73d57bb1fb280c… | 2025-09-23T20:46:53.286Z | 0x9a73d57bb1fb280c… | 2025-09-25T18:52:11.000Z | 5 | 5 | 5 entries | 2026-03-11T22:14:14.928Z | 2026-03-11T22:14:14.928Z | present |
 
 ## Action: 534352 — Safe 0x0747a435b8a60070a7a111d015046d765098e4cc — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x0747a435b8a60070a7a111d015046d765098e4cc |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 534352 | 217578c8-f3ee-404a-aea7-abcd4040a918 | 0xcae4a071da2d259039a37179e7cfdaa64c1a02089b3ce50ee371e652764b85bf | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132000747a435b8a60070a7a111d015046d765098e4cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004000747a435b8a60070a7a111d015046d765098e4cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 1 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-12T19:08:51.945Z | — | — | 5 | 2 | 2 entries | 2026-03-11T22:14:27.162Z | 2026-03-11T22:14:27.162Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 534352 | 217578c8-f3ee-404a-aea7-abcd4040a918 | 0xcae4a071da2d2590… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 1 | 0x0747a435b8a60070… | 0x2b384212edc04ae8… | 2025-09-12T19:08:51.945Z | — | — | 5 | 2 | 2 entries | 2026-03-11T22:14:27.162Z | 2026-03-11T22:14:27.162Z | present |
 
 ## Action: 10 — Safe 0x3ffd6c073a4ba24a113b18c8f373569640916a45 — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10 | 06a6cf5c-b6e9-4b23-bf67-3048335ace6d | 0xb348a39b2b887839bff5b3006b89c4b1a3fd7abf7f16395732344ede3c7bc84d | success | — | — | 0x23072b2ed53d5ec4f32b5acde9af28cd282cb40eee3103252d4866fb80a589b2 | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132003ffd6c073a4ba24a113b18c8f373569640916a45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004003ffd6c073a4ba24a113b18c8f373569640916a45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 1 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-12T19:03:40.965Z | 0x620d7e459cffcdc56a874536dc19147de801a4a1 | 2025-09-23T21:04:51.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:16.173Z | 2026-03-11T22:14:16.173Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | 06a6cf5c-b6e9-4b23-bf67-3048335ace6d | 0xb348a39b2b887839… | success | — | — | 0x23072b2ed53d5ec4… | 0xa1dabef33b3b82c7… | 0 | present | 1 | 0x3ffd6c073a4ba24a… | 0x2b384212edc04ae8… | 2025-09-12T19:03:40.965Z | 0x620d7e459cffcdc5… | 2025-09-23T21:04:51.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:16.173Z | 2026-03-11T22:14:16.173Z | present |
 
 ## Action: 5000 — Safe 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5000 | c734e606-9ae1-4e05-8122-62d5384e216d | 0xf208ec64af438623181e8e5ca0085711ffd5e37612fe4c1c1d6ff7cee1afb893 | success | — | — | 0x453ea6434fed67e810eba0054959555d9b5c25bc83d58104eb5588bc2adf8707 | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132002127338f0ff71ecc779dce407d95c7d32f7c5f45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004002127338f0ff71ecc779dce407d95c7d32f7c5f45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 1 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-12T18:56:23.724Z | 0xdf1aa0495c815a1b9156796a741885a4834ec012 | 2025-09-24T13:59:52.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:21.540Z | 2026-03-11T22:14:21.540Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5000 | c734e606-9ae1-4e05-8122-62d5384e216d | 0xf208ec64af438623… | success | — | — | 0x453ea6434fed67e8… | 0xa1dabef33b3b82c7… | 0 | present | 1 | 0x2127338f0ff71ecc… | 0x2b384212edc04ae8… | 2025-09-12T18:56:23.724Z | 0xdf1aa0495c815a1b… | 2025-09-24T13:59:52.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:21.540Z | 2026-03-11T22:14:21.540Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | da29eec8-628b-44da-a1a9-821e050e770a | 0x5792102e71b0dba9f70b8a0422db7d1e26a44a04b134b935ec61cb82c8420f62 | success | — | — | 0x668a8e9b804eff114280b7576d988b9ea27b2df96c8f0937201c6f5675552a70 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132008ab717cac3cbc4934e63825b88442f5810aaf6e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004008ab717cac3cbc4934e63825b88442f5810aaf6e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 3 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-12T18:48:47.103Z | 0x620d7e459cffcdc56a874536dc19147de801a4a1 | 2025-09-23T20:54:41.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.074Z | 2026-03-11T22:14:19.074Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | da29eec8-628b-44da-a1a9-821e050e770a | 0x5792102e71b0dba9… | success | — | — | 0x668a8e9b804eff11… | 0x40a2accbd92bca93… | 0 | present | 3 | 0x8ab717cac3cbc493… | 0x2b384212edc04ae8… | 2025-09-12T18:48:47.103Z | 0x620d7e459cffcdc5… | 2025-09-23T20:54:41.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.074Z | 2026-03-11T22:14:19.074Z | present |
 
 ## Action: 42161 — Safe 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 42161 | 0967705e-a356-43f4-8792-ed424128aca4 | 0x8ebe4b975c8f26bd31fe20548a5690ab052c677adeaa25d99fb72808af7e3dab | success | — | — | 0x6d79ad218e10495a612f63afa66145a46add61133f348753db0e78db116fbbe5 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001320078e6317dd6d43ddbda00dce32c2cbafc99361a9d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b5300000000000000000000000000000000000000000000000000000000000000040078e6317dd6d43ddbda00dce32c2cbafc99361a9d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 2 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-12T18:28:42.249Z | 0xc4e7263dd870a29f1cfe438d1a7db48547b16888 | 2025-09-23T22:04:08.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:24.193Z | 2026-03-11T22:14:24.193Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 42161 | 0967705e-a356-43f4-8792-ed424128aca4 | 0x8ebe4b975c8f26bd… | success | — | — | 0x6d79ad218e10495a… | 0x40a2accbd92bca93… | 0 | present | 2 | 0x78e6317dd6d43ddb… | 0x2b384212edc04ae8… | 2025-09-12T18:28:42.249Z | 0xc4e7263dd870a29f… | 2025-09-23T22:04:08.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:24.193Z | 2026-03-11T22:14:24.193Z | present |
 
 ## Action: 8453 — Safe 0x3cb4653f3b45f448d9100b118b75a1503281d2ee — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8453 | cb968b5b-6f51-49df-9b0d-45dacdbc108c | 0xe027ebca202a42945a06f610e5c93aa474d4830e18945e7f783d04172a319baf | success | — | — | 0x0f8a3a72cdcaadb2938ed010b7d42e76f8f7e88a9d3a1dda5a28588cae10e313 | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132003cb4653f3b45f448d9100b118b75a1503281d2ee000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b530000000000000000000000000000000000000000000000000000000000000004003cb4653f3b45f448d9100b118b75a1503281d2ee000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 2 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-12T18:18:40.337Z | 0x417b4adc279743fc49f047c323fc668db9e600d8 | 2025-09-23T22:05:07.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:22.944Z | 2026-03-11T22:14:22.944Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8453 | cb968b5b-6f51-49df-9b0d-45dacdbc108c | 0xe027ebca202a4294… | success | — | — | 0x0f8a3a72cdcaadb2… | 0xa1dabef33b3b82c7… | 0 | present | 2 | 0x3cb4653f3b45f448… | 0x2b384212edc04ae8… | 2025-09-12T18:18:40.337Z | 0x417b4adc279743fc… | 2025-09-23T22:05:07.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:22.944Z | 2026-03-11T22:14:22.944Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 66
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 66 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 4d4efe84-0e2f-4d51-82b9-2eb0a58057e0 | 0x048c66e56c2aaa60dbe119ba3707bebb41f0a7af9836ddea1c266ceff440d1f7 | success | — | — | 0x34835c9269d4b228c5ae0c0e4ee4ffa64b2f28e3f7f2c5327cd48a3018a0aa05 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000013200bbf3f1421d886e9b2c5d716b5192ac998af2012c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000a1bb2061febaf91738f104a19073c84589b92b53000000000000000000000000000000000000000000000000000000000000000400bbf3f1421d886e9b2c5d716b5192ac998af2012c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000004a3a60ee1007a477edfccb7182ee7f4ef876fa2500000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000 | 66 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-09-08T20:08:12.446Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2025-09-10T18:57:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.929Z | 2026-03-11T22:14:14.929Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 4d4efe84-0e2f-4d51-82b9-2eb0a58057e0 | 0x048c66e56c2aaa60… | success | — | — | 0x34835c9269d4b228… | 0x40a2accbd92bca93… | 0 | present | 66 | 0xbbf3f1421d886e9b… | 0x2b384212edc04ae8… | 2025-09-08T20:08:12.446Z | 0xc3aae58ab8166387… | 2025-09-10T18:57:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.929Z | 2026-03-11T22:14:14.929Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 65
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 65 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 3bdd71f4-08c2-4b34-bb5c-0488faef3068 | 0x0076225e7c8be6c0d5d16b6b00afa809605ba6b30101b57b14bef5705bb79f91 | success | — | — | 0xd71267be88c2e9ad4f9ae363062dc4ce05a0dbe743752a0eb69c71adddca4650 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000013200309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000007b3c54e17d618cc94dadfe7671c1e2f50c4ecc330000000000000000000000000000000000000000000000000000000068ffd84d00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d80f679a47f78ce7d5af6fa2e7176189942ef4b0000000000000000000000000000000000000000000000000000000068ffd84d0000000000000000000000000000 | 65 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-08-27T20:41:08.132Z | 0xdf1aa0495c815a1b9156796a741885a4834ec012 | 2025-08-28T15:04:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.931Z | 2026-03-11T22:14:14.931Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 3bdd71f4-08c2-4b34-bb5c-0488faef3068 | 0x0076225e7c8be6c0… | success | — | — | 0xd71267be88c2e9ad… | 0x40a2accbd92bca93… | 0 | present | 65 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-08-27T20:41:08.132Z | 0xdf1aa0495c815a1b… | 2025-08-28T15:04:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.931Z | 2026-03-11T22:14:14.931Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 64
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 64 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 6ea681ed-1ded-4930-8952-7040b7ad4011 | 0x4e1aa4e8c85f8f798e939a7802ef27f1736a867aefb2ce2e43e319e6502756c0 | success | — | — | 0x706001b54001d6a2c0e3afbe16d27e8c7866a24452c98eee77b4f26ee15a5b95 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002fd00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000089f299103d8627557906edf5bf197fe131bce8db0000000000000000000000000000000000000000000000000000000068b4e1ff00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d57f3c47c4abaf24371bf11e2c994b32d96093e0000000000000000000000000000000000000000000000000000000068b4e1ff00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000871fac073d4bf00d364167f766adaa9649e5e26c0000000000000000000000000000000000000000000000000000000068b4e1ff00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000bfe2ff554d56527f679b746c777d73157724788d0000000000000000000000000000000000000000000000000000000068b4e1ff00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000039d3dcbd0467ed167e9a7dbe77b58b8b1ea75aad0000000000000000000000000000000000000000000000000000000068b4e1ff000000 | 64 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-07-01T17:27:03.632Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2025-07-01T23:11:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.933Z | 2026-03-11T22:14:14.933Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 6ea681ed-1ded-4930-8952-7040b7ad4011 | 0x4e1aa4e8c85f8f79… | success | — | — | 0x706001b54001d6a2… | 0x40a2accbd92bca93… | 0 | present | 64 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-07-01T17:27:03.632Z | 0xc3aae58ab8166387… | 2025-07-01T23:11:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.933Z | 2026-03-11T22:14:14.933Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 63
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 63 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | db2ce08d-40b3-4e95-85c0-09f661dc27a8 | 0x5070038c941d14ddb1acf72ab99a668809585a10811983ad9212f3e5a1044dac | success | — | — | 0x0e2ad317e92a7a2321d1d5740a2d29062d500f542591a3d5af95d2c2a8e80dce | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000013200309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000000000000000000000000000000000006a43afc000309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000b76f0db1e5f26b023247db580eeb53748bb9c7ab00000000000000000000000000000000000000000000000000000000688cac400000000000000000000000000000 | 63 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-06-20T17:42:02.524Z | 0xdf1aa0495c815a1b9156796a741885a4834ec012 | 2025-06-22T00:06:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.935Z | 2026-03-11T22:14:14.935Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | db2ce08d-40b3-4e95-85c0-09f661dc27a8 | 0x5070038c941d14dd… | success | — | — | 0x0e2ad317e92a7a23… | 0x40a2accbd92bca93… | 0 | present | 63 | 0xbbf3f1421d886e9b… | 0x2b384212edc04ae8… | 2025-06-20T17:42:02.524Z | 0xdf1aa0495c815a1b… | 2025-06-22T00:06:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.935Z | 2026-03-11T22:14:14.935Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 62
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 62 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ac430a88-5908-430c-8c09-76658a9eb9e2 | 0x5634d144f395b7ba589abd101688e825134e5faf5923ee32397680c56709e7f2 | success | — | — | 0x2d7076ce590bebe36a6e4904681d03c50f2c025ad23500f2398adf4259530ded | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000026400309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000089f299103d8627557906edf5bf197fe131bce8db00000000000000000000000000000000000000000000000000000000681e4a5800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d57f3c47c4abaf24371bf11e2c994b32d96093e00000000000000000000000000000000000000000000000000000000681e4a5800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000871fac073d4bf00d364167f766adaa9649e5e26c00000000000000000000000000000000000000000000000000000000681e4a5800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000bfe2ff554d56527f679b746c777d73157724788d00000000000000000000000000000000000000000000000000000000681e4a5800000000000000000000000000000000000000000000000000000000 | 62 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-04-17T18:48:34.782Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2025-04-18T19:37:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.936Z | 2026-03-11T22:14:14.936Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | ac430a88-5908-430c-8c09-76658a9eb9e2 | 0x5634d144f395b7ba… | success | — | — | 0x2d7076ce590bebe3… | 0x40a2accbd92bca93… | 0 | present | 62 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-04-17T18:48:34.782Z | 0xc3aae58ab8166387… | 2025-04-18T19:37:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.936Z | 2026-03-11T22:14:14.936Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | 6256ebfd-9f44-4efb-8c2a-cf81b75ff248 | 0x4f87e1b77471328fc69a0908ce989a87e76e909b6e0d40e5d94602c27d170941 | success | — | — | 0xb3fdfbafa79c9673723ec240479ffd30575fac7f6568a3c6bb2156e956e70b46 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000020b008ab717cac3cbc4934e63825b88442f5810aaf6e500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70008ab717cac3cbc4934e63825b88442f5810aaf6e500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d2008ab717cac3cbc4934e63825b88442f5810aaf6e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000 | 2 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-03-17T22:58:42.634Z | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-03-25T17:38:14.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.078Z | 2026-03-11T22:14:19.078Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | 6256ebfd-9f44-4efb-8c2a-cf81b75ff248 | 0x4f87e1b77471328f… | success | — | — | 0xb3fdfbafa79c9673… | 0x40a2accbd92bca93… | 0 | present | 2 | 0x8ab717cac3cbc493… | 0x2b384212edc04ae8… | 2025-03-17T22:58:42.634Z | 0x9a73d57bb1fb280c… | 2025-03-25T17:38:14.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.078Z | 2026-03-11T22:14:19.078Z | present |
 
 ## Action: 8453 — Safe 0x3cb4653f3b45f448d9100b118b75a1503281d2ee — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8453 | 45e1ecb4-e705-4c2c-8c90-ed370e465457 | 0x7ca28e048f6083c71aa4bc3cfd6fa4e2f309ec4b2c557d09f08e386fdd7b9643 | success | — | — | 0x3c03c7b43ec66ea943cb78756273bcf5ffebb526e48d79865eee3f35ac98ee8b | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000020b003cb4653f3b45f448d9100b118b75a1503281d2ee00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70003cb4653f3b45f448d9100b118b75a1503281d2ee00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d2003cb4653f3b45f448d9100b118b75a1503281d2ee000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000 | 1 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-03-17T22:52:10.818Z | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-03-26T15:39:01.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:22.947Z | 2026-03-11T22:14:22.947Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8453 | 45e1ecb4-e705-4c2c-8c90-ed370e465457 | 0x7ca28e048f6083c7… | success | — | — | 0x3c03c7b43ec66ea9… | 0xa1dabef33b3b82c7… | 0 | present | 1 | 0x3cb4653f3b45f448… | 0x2b384212edc04ae8… | 2025-03-17T22:52:10.818Z | 0x9a73d57bb1fb280c… | 2025-03-26T15:39:01.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:22.947Z | 2026-03-11T22:14:22.947Z | present |
 
 ## Action: 42161 — Safe 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 42161 | 8a7f9443-ca8a-42d4-b210-592238bd38c3 | 0xdf8c6bf7b4d20766e8683d91d523a39b30320804f980d066afff83445cf81538 | success | — | — | 0x0dcc8000a9412ab777270034e05140f2f61300ec8164a295c80fe730aee2f418 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000020b0078e6317dd6d43ddbda00dce32c2cbafc99361a9d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b700078e6317dd6d43ddbda00dce32c2cbafc99361a9d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20078e6317dd6d43ddbda00dce32c2cbafc99361a9d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000 | 1 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-03-17T22:42:53.884Z | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-03-25T17:39:41.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:24.196Z | 2026-03-11T22:14:24.196Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 42161 | 8a7f9443-ca8a-42d4-b210-592238bd38c3 | 0xdf8c6bf7b4d20766… | success | — | — | 0x0dcc8000a9412ab7… | 0x40a2accbd92bca93… | 0 | present | 1 | 0x78e6317dd6d43ddb… | 0x2b384212edc04ae8… | 2025-03-17T22:42:53.884Z | 0x9a73d57bb1fb280c… | 2025-03-25T17:39:41.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:24.196Z | 2026-03-11T22:14:24.196Z | present |
 
 ## Action: 10 — Safe 0x3ffd6c073a4ba24a113b18c8f373569640916a45 — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3ffd6c073a4ba24a113b18c8f373569640916a45 |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10 | d691afdc-0507-426c-afc9-4880903a0d1a | 0x640842f78f131636d68cf0d22f65d11654c5572721a887569a41034dcdd4dcb3 | success | — | — | 0xac937f5a8e63afb1080db32e214a1dcf1bc5ccee89b69621917ceb94f7f73eeb | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000020b003ffd6c073a4ba24a113b18c8f373569640916a4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70003ffd6c073a4ba24a113b18c8f373569640916a4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d2003ffd6c073a4ba24a113b18c8f373569640916a45000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000 | 0 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-03-17T22:26:01.296Z | 0x9a73d57bb1fb280c5672a13f655675de25f13b70 | 2025-03-25T17:40:39.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:16.176Z | 2026-03-11T22:14:16.176Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | d691afdc-0507-426c-afc9-4880903a0d1a | 0x640842f78f131636… | success | — | — | 0xac937f5a8e63afb1… | 0xa1dabef33b3b82c7… | 0 | present | 0 | 0x3ffd6c073a4ba24a… | 0x2b384212edc04ae8… | 2025-03-17T22:26:01.296Z | 0x9a73d57bb1fb280c… | 2025-03-25T17:40:39.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:16.176Z | 2026-03-11T22:14:16.176Z | present |
 
 ## Action: 534352 — Safe 0x0747a435b8a60070a7a111d015046d765098e4cc — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x0747a435b8a60070a7a111d015046d765098e4cc |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 534352 | 35a0f8cf-6184-4bef-a192-d063dedda4a8 | 0x60c1e50b24676e0f7d4534f48829b923e8dbcc66492c5797c16e3a9205f613b0 | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000020b000747a435b8a60070a7a111d015046d765098e4cc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70000747a435b8a60070a7a111d015046d765098e4cc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d2000747a435b8a60070a7a111d015046d765098e4cc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f13000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000 | 0 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-03-17T22:15:52.753Z | — | — | 5 | 1 | 1 entries | 2026-03-11T22:14:27.164Z | 2026-03-11T22:14:27.164Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 534352 | 35a0f8cf-6184-4bef-a192-d063dedda4a8 | 0x60c1e50b24676e0f… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 0 | 0x0747a435b8a60070… | 0x2b384212edc04ae8… | 2025-03-17T22:15:52.753Z | — | — | 5 | 1 | 1 entries | 2026-03-11T22:14:27.164Z | 2026-03-11T22:14:27.164Z | present |
 
 ## Action: 5000 — Safe 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x2127338f0ff71ecc779dce407d95c7d32f7c5f45 |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 5000 | acb34e9b-a5dd-4e03-b33b-ca9293f0c7d6 | 0xeb40b53fdf4c784bd91aa40500f0f52e56b570998e5e07102fe038a344c3d7e3 | success | — | — | 0x063ec8e23e565095eb0d8cc2da53bc3ed264a47b5376ed47fd323532690c822c | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000172002127338f0ff71ecc779dce407d95c7d32f7c5f4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b0000000000000000000000003fb19771947072629c8eee7995a2ef23b72d4c8a0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70002127338f0ff71ecc779dce407d95c7d32f7c5f4500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d20000000000000000000000000000 | 0 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2025-03-17T21:55:14.707Z | 0x3fb19771947072629c8eee7995a2ef23b72d4c8a | 2025-03-24T19:26:58.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:21.543Z | 2026-03-11T22:14:21.543Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5000 | acb34e9b-a5dd-4e03-b33b-ca9293f0c7d6 | 0xeb40b53fdf4c784b… | success | — | — | 0x063ec8e23e565095… | 0xa1dabef33b3b82c7… | 0 | present | 0 | 0x2127338f0ff71ecc… | 0x2b384212edc04ae8… | 2025-03-17T21:55:14.707Z | 0x3fb1977194707262… | 2025-03-24T19:26:58.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:21.543Z | 2026-03-11T22:14:21.543Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 62
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 62 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 9423c7bc-4259-4c1d-a06e-01c227189010 | 0x61ef21bfa6d9808d0fc7319bd98e2c964c257e77233836b5b4f8ed20d4bddd80 | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000039600309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000089f299103d8627557906edf5bf197fe131bce8db0000000000000000000000000000000000000000000000000000000067d3a90800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d57f3c47c4abaf24371bf11e2c994b32d96093e0000000000000000000000000000000000000000000000000000000067d3a90800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000871fac073d4bf00d364167f766adaa9649e5e26c0000000000000000000000000000000000000000000000000000000067d3a90800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000bfe2ff554d56527f679b746c777d73157724788d0000000000000000000000000000000000000000000000000000000067d3a90800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000039d3dcbd0467ed167e9a7dbe77b58b8b1ea75aad0000000000000000000000000000000000000000000000000000000067d3a90800309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000b1fc5979a325f9b444be79889cf9faf4167aaa950000000000000000000000000000000000000000000000000000000067d3a90800000000000000000000 | 62 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-03-05T04:08:18.992Z | — | — | 4 | 2 | 2 entries | 2026-03-11T22:14:14.937Z | 2026-03-11T22:14:14.937Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 9423c7bc-4259-4c1d-a06e-01c227189010 | 0x61ef21bfa6d9808d… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 62 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-03-05T04:08:18.992Z | — | — | 4 | 2 | 2 entries | 2026-03-11T22:14:14.937Z | 2026-03-11T22:14:14.937Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 61
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 61 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 1834bae0-18f0-4f31-8704-40b8b12bcb43 | 0xc8ca5e4b9583f5e64d5ac30aa63c4e27d200350b92de0e3f00d9f3fbba342c4b | success | — | — | 0x285ebb567fe27b6099a7b7336dd5d120bc900b9df4bd60a92c17df463e79528c | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 61 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-03-05T04:01:19.200Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2025-03-26T07:44:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.940Z | 2026-03-11T22:14:14.940Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 1834bae0-18f0-4f31-8704-40b8b12bcb43 | 0xc8ca5e4b9583f5e6… | success | — | — | 0x285ebb567fe27b60… | 0xbbf3f1421d886e9b… | 0 | — | 61 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-03-05T04:01:19.200Z | 0x54a37d93e57c5da6… | 2025-03-26T07:44:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.940Z | 2026-03-11T22:14:14.940Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 61
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 61 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2c84cbb0-4dda-4f5c-9ed1-eaeb2388f3f5 | 0xdbba4ad5962a3c2ac4853a673bf4afae21349452fd37d517c6baa929a4f22ea4 | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001f2003afdc9bca9213a35503b077a6072f3d0d5ab0840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d0700000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001005d409e56d886231adaf00c8775665ad0f9897b56000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a444c35d07000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000 | 61 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2025-02-28T02:48:43.423Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:14.941Z | 2026-03-11T22:14:14.941Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2c84cbb0-4dda-4f5c-9ed1-eaeb2388f3f5 | 0xdbba4ad5962a3c2a… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 61 | 0xbbf3f1421d886e9b… | 0xd17b14ff80d3bf8e… | 2025-02-28T02:48:43.423Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:14.941Z | 2026-03-11T22:14:14.941Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 60
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 60 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 4f8d1692-544a-4b90-874e-4e839a848b77 | 0xd1b5dcffcb1a2857d99f489c3ca4c4ba978e400dbc2d3f40521a7b3a06e910db | success | — | — | 0x38bd10943956854f2a979c87194113b7afd4cadca354435b9521924f6b2706a0 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000039600309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000089f299103d8627557906edf5bf197fe131bce8db0000000000000000000000000000000000000000000000000000000067b0fb6e00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a6380000000000000000000000004d57f3c47c4abaf24371bf11e2c994b32d96093e0000000000000000000000000000000000000000000000000000000067b0fb6e00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000871fac073d4bf00d364167f766adaa9649e5e26c0000000000000000000000000000000000000000000000000000000067b0fb6e00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000bfe2ff554d56527f679b746c777d73157724788d0000000000000000000000000000000000000000000000000000000067b0fb6e00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a63800000000000000000000000039d3dcbd0467ed167e9a7dbe77b58b8b1ea75aad0000000000000000000000000000000000000000000000000000000067b0fb6e00309a862bbc1a00e45506cb8a802d1ff10004c8c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044ded0a638000000000000000000000000b1fc5979a325f9b444be79889cf9faf4167aaa950000000000000000000000000000000000000000000000000000000067b0fb6e00000000000000000000 | 60 | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-02-05T20:48:37.858Z | 0xd2a79f263ec55dbc7b724ecc20fc7448d4795a0c | 2025-02-07T04:28:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.942Z | 2026-03-11T22:14:14.942Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 4f8d1692-544a-4b90-874e-4e839a848b77 | 0xd1b5dcffcb1a2857… | success | — | — | 0x38bd10943956854f… | 0x40a2accbd92bca93… | 0 | present | 60 | 0xbbf3f1421d886e9b… | 0xd2a79f263ec55dbc… | 2025-02-05T20:48:37.858Z | 0xd2a79f263ec55dbc… | 2025-02-07T04:28:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.942Z | 2026-03-11T22:14:14.942Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 59
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 59 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b8c12ab0-c0c9-4362-9e5e-28602aa7ae33 | 0xaa1c869ba3eb04cd37772d672bf7a78cce0b4ff2be1034078708089c6c06d2db | success | — | — | 0xabbff8704cc5f77d306042b131e731f9f3113c9c2f605d7e60bfa0f7a80bc3c5 | 0x309a862bbc1a00e45506cb8a802d1ff10004c8c0 | 0 | 0xded0a638000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000000000000000000000000000000000006861d380 | 59 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2025-01-25T05:36:33.272Z | 0xbebfc2366b95a4f2eba4f61eb80cebf504a185c2 | 2025-01-27T13:37:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.944Z | 2026-03-11T22:14:14.944Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b8c12ab0-c0c9-4362-9e5e-28602aa7ae33 | 0xaa1c869ba3eb04cd… | success | — | — | 0xabbff8704cc5f77d… | 0x309a862bbc1a00e4… | 0 | present | 59 | 0xbbf3f1421d886e9b… | 0xd17b14ff80d3bf8e… | 2025-01-25T05:36:33.272Z | 0xbebfc2366b95a4f2… | 2025-01-27T13:37:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.944Z | 2026-03-11T22:14:14.944Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 58
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 58 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | da8a3692-12c5-42b8-bc77-3f679a10b0f7 | 0x41a245d56819e2a93ae0cf7bd22aed804e960667d009a6823d6097db49abacca | success | — | — | 0x203273571b5a021a849eb97e8035c15b96dae11e6dde38479771785e45f76673 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000447abe6a1fb43a8958ba1a179a50eb16c768bad10000000000000000000000000000000000000000000000000000000067a5a160 | 58 | 0xd17b14ff80d3bf8e95d719e177d247be02d553d2 | 2025-01-24T17:41:13.064Z | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2025-01-24T21:26:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.946Z | 2026-03-11T22:14:14.946Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | da8a3692-12c5-42b8-bc77-3f679a10b0f7 | 0x41a245d56819e2a9… | success | — | — | 0x203273571b5a021a… | 0xc0da02939e1441f4… | 0 | present | 58 | 0xbbf3f1421d886e9b… | 0xd17b14ff80d3bf8e… | 2025-01-24T17:41:13.064Z | 0xdd659911ecbd4458… | 2025-01-24T21:26:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.946Z | 2026-03-11T22:14:14.946Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 56
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 56 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | f950500b-b34e-42fa-acbc-f17fb641d5eb | 0xa8b8e9979a9aa3defce0a47375a6a6a81251d018ec84b313a96787f25af4cb7f | success | — | — | 0x55781582fd4fb32dc98ef10df6565a32bd14be2f1a362d168d1d0949a9238a30 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b0000000000000000000000003fb19771947072629c8eee7995a2ef23b72d4c8a0000000000000000000000009a73d57bb1fb280c5672a13f655675de25f13b70 | 56 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2024-12-30T20:10:04.727Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2024-12-31T06:54:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.949Z | 2026-03-11T22:14:14.949Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | f950500b-b34e-42fa-acbc-f17fb641d5eb | 0xa8b8e9979a9aa3de… | success | — | — | 0x55781582fd4fb32d… | 0xbbf3f1421d886e9b… | 0 | present | 56 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2024-12-30T20:10:04.727Z | 0x54a37d93e57c5da6… | 2024-12-31T06:54:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.949Z | 2026-03-11T22:14:14.949Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 57
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 57 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | cfa6fca4-037a-4847-872d-ceeb50da62e0 | 0xc581359e1a26d0b0103a87eea396325f9e6bdefcc59cc6c6c9b46c5b2d5c38d7 | success | — | — | 0x7af476d0b924a80ab7e9102c26f103271b81bd125e7bcb9fe7cf74650f643183 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d17b14ff80d3bf8e95d719e177d247be02d553d2 | 57 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2024-12-30T20:07:52.579Z | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2025-01-17T19:09:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.948Z | 2026-03-11T22:14:14.948Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | cfa6fca4-037a-4847-872d-ceeb50da62e0 | 0xc581359e1a26d0b0… | success | — | — | 0x7af476d0b924a80a… | 0xbbf3f1421d886e9b… | 0 | present | 57 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2024-12-30T20:07:52.579Z | 0x2c96f0403eabc1f1… | 2025-01-17T19:09:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.948Z | 2026-03-11T22:14:14.948Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 56
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 56 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | eea994d3-a3ba-459d-bb25-80c0873836b2 | 0x906066650bdffdf053ec81031ccf9d484426c5235a4b13c3bb9704b1cafc09b0 | pending | — | — | — | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 56 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2024-11-19T10:07:42.056Z | — | — | 4 | 3 | 3 entries | 2026-03-11T22:14:14.950Z | 2026-03-11T22:14:14.950Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | eea994d3-a3ba-459d-bb25-80c0873836b2 | 0x906066650bdffdf0… | pending | — | — | — | 0xbbf3f1421d886e9b… | 0 | — | 56 | 0xbbf3f1421d886e9b… | 0x2b384212edc04ae8… | 2024-11-19T10:07:42.056Z | — | — | 4 | 3 | 3 entries | 2026-03-11T22:14:14.950Z | 2026-03-11T22:14:14.950Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 56
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 56 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b9370224-97b9-4473-88fe-ae0acb348606 | 0x1412ea36d25caf42af1cd60235fc27e32bd5f47a967c680e8a13e0cb5172b0ff | pending | — | — | — | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf330000000000000000000000000000000000000000000000000000000067636200 | 56 | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2024-11-18T03:48:13.004Z | — | — | 4 | 2 | 2 entries | 2026-03-11T22:14:14.953Z | 2026-03-11T22:14:14.953Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b9370224-97b9-4473-88fe-ae0acb348606 | 0x1412ea36d25caf42… | pending | — | — | — | 0xc0da02939e1441f4… | 0 | present | 56 | 0xbbf3f1421d886e9b… | 0x2b384212edc04ae8… | 2024-11-18T03:48:13.004Z | — | — | 4 | 2 | 2 entries | 2026-03-11T22:14:14.953Z | 2026-03-11T22:14:14.953Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 55
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 55 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 449962d2-0ab6-4227-9d3b-2e5873d632a3 | 0x2d142adf9dbf47daeb71b6cfe0f0aa7c43be528809137f064bb7f2564e9a997a | success | — | — | 0xb69f0a70e236a25549067fd899793bf28b751460b3beb45eb97363d7da5a9b30 | 0x8cf42b08ad13761345531b839487aa4d113955d9 | 0 | 0x79ba5097 | 55 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2024-09-04T19:03:45.055Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2024-09-04T23:20:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.954Z | 2026-03-11T22:14:14.954Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 449962d2-0ab6-4227-9d3b-2e5873d632a3 | 0x2d142adf9dbf47da… | success | — | — | 0xb69f0a70e236a255… | 0x8cf42b08ad137613… | 0 | present | 55 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2024-09-04T19:03:45.055Z | 0xc3aae58ab8166387… | 2024-09-04T23:20:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.954Z | 2026-03-11T22:14:14.954Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 54
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 54 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0224e0e7-9b96-4dac-bdf5-3e655794690b | 0x1fd9b3338d5ab095dd149263b038d5ddbae643b2235363506ea52a58797849b4 | success | — | — | 0xee7fee5eba2eae80d634f0d35d8a19f39a76a037f9aa4923e82ff0e3d735873c | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0x0d582f13000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c0000000000000000000000000000000000000000000000000000000000000004 | 54 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2024-08-02T19:46:36.376Z | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2024-08-14T04:37:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.956Z | 2026-03-11T22:14:14.956Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0224e0e7-9b96-4dac-bdf5-3e655794690b | 0x1fd9b3338d5ab095… | success | — | — | 0xee7fee5eba2eae80… | 0xbbf3f1421d886e9b… | 0 | present | 54 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2024-08-02T19:46:36.376Z | 0xdd659911ecbd4458… | 2024-08-14T04:37:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.956Z | 2026-03-11T22:14:14.956Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 53
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 53 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0bbd598f-72f4-4646-8c8d-87c62614be38 | 0x4f1da8de53315197e0c103b6def1c98a8c395797579b8b0f45b8b914eada2a9a | success | — | — | 0x7a633f4b877dc6c0eb6b3715d4eabfb7be2a3f5477b60df2ebb114c53d9019e4 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000d2a79f263ec55dbc7b724ecc20fc7448d4795a0c000000000000000000000000000000000000000000000000000000006861d380 | 53 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2024-07-17T09:23:18.607Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2024-07-19T08:37:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.957Z | 2026-03-11T22:14:14.957Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0bbd598f-72f4-4646-8c8d-87c62614be38 | 0x4f1da8de53315197… | success | — | — | 0x7a633f4b877dc6c0… | 0xc0da02939e1441f4… | 0 | present | 53 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2024-07-17T09:23:18.607Z | 0x54a37d93e57c5da6… | 2024-07-19T08:37:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.957Z | 2026-03-11T22:14:14.957Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 52
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 52 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ca34081a-6c52-4698-83e0-8d2593bd9558 | 0xe53f181bffb2a6ad11acdf54b1dc791419c76531ac3ff31d87ef0e6db327e6ee | success | — | — | 0xf459ce07afb335e11274c2897fc17168bcd42e29526138cff94c5137d8b6ff1e | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b0000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0000000000000000000000003fb19771947072629c8eee7995a2ef23b72d4c8a | 52 | 0xd04e545c665741cd99d1b9d9cd96396f0f8166fb | 2024-06-26T14:23:21.910Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2024-07-19T08:36:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.960Z | 2026-03-11T22:14:14.960Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | ca34081a-6c52-4698-83e0-8d2593bd9558 | 0xe53f181bffb2a6ad… | success | — | — | 0xf459ce07afb335e1… | 0xbbf3f1421d886e9b… | 0 | present | 52 | 0xbbf3f1421d886e9b… | 0xd04e545c665741cd… | 2024-06-26T14:23:21.910Z | 0x54a37d93e57c5da6… | 2024-07-19T08:36:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.960Z | 2026-03-11T22:14:14.960Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 51
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 51 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 1fb85584-cc5f-46c7-9790-a0180e8ddb5f | 0x3422b156ebe3a7d003ee8a075b56d40e90a40a511fd86741ea88319db804cff4 | success | — | — | 0x53ac7e7268958d7a3f9806f85e4a228670a42e1dd1c908761d21fb038ac7d9f0 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000004d80f679a47f78ce7d5af6fa2e7176189942ef4b0000000000000000000000000000000000000000000000000000000067759eea | 51 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2024-04-16T14:01:32.559Z | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2024-04-22T16:09:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.961Z | 2026-03-11T22:14:14.961Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 1fb85584-cc5f-46c7-9790-a0180e8ddb5f | 0x3422b156ebe3a7d0… | success | — | — | 0x53ac7e7268958d7a… | 0xc0da02939e1441f4… | 0 | present | 51 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2024-04-16T14:01:32.559Z | 0xdd659911ecbd4458… | 2024-04-22T16:09:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.961Z | 2026-03-11T22:14:14.961Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 50
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 50 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | fbd19d04-b551-45b1-816e-abdb63beda95 | 0x3839949b0491844c3c49cbc9982f3121081403a70eaf51c64f83a2f52815f0a6 | success | — | — | 0x7e3bbba0397322aacd154118324c14446ff6e348a5452a5af47b5389c32709dc | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000009c9dc2110240391d4bee41203bdfbd19c279b429000000000000000000000000000000000000000000000000000000006592e7d3 | 50 | 0x2c96f0403eabc1f11fe737566dedb183a019763b | 2023-12-01T16:28:38.919Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2023-12-05T00:26:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.962Z | 2026-03-11T22:14:14.962Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | fbd19d04-b551-45b1-816e-abdb63beda95 | 0x3839949b0491844c… | success | — | — | 0x7e3bbba0397322aa… | 0xc0da02939e1441f4… | 0 | present | 50 | 0xbbf3f1421d886e9b… | 0x2c96f0403eabc1f1… | 2023-12-01T16:28:38.919Z | 0x54a37d93e57c5da6… | 2023-12-05T00:26:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.962Z | 2026-03-11T22:14:14.962Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 49
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 49 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 273ffc7a-ade5-47f5-8464-5529498773df | 0xf6fc90b8647e25f6f7b629518e568e7d538dc6cf60597573d8680a60714daf39 | success | — | — | 0x4e70c50f90006afb8e06f892435d947a415c6c4a19fbf57971631ccb6a773380 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000b76f0db1e5f26b023247db580eeb53748bb9c7ab00000000000000000000000000000000000000000000000000000000671db480 | 49 | — | 2023-09-15T19:09:33.142Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2023-09-18T23:12:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.964Z | 2026-03-11T22:14:14.964Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 273ffc7a-ade5-47f5-8464-5529498773df | 0xf6fc90b8647e25f6… | success | — | — | 0x4e70c50f90006afb… | 0xc0da02939e1441f4… | 0 | present | 49 | 0xbbf3f1421d886e9b… | — | 2023-09-15T19:09:33.142Z | 0xc3aae58ab8166387… | 2023-09-18T23:12:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.964Z | 2026-03-11T22:14:14.964Z | present |
 
 ## Action: 42161 — Safe 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x78e6317dd6d43ddbda00dce32c2cbafc99361a9d |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 42161 | a9f8b6de-d737-4837-bffc-336167a0af6e | 0x4f13bb293eeb417209b9486883b649261ae92b0adbab6db2bbd727b044b47e59 | success | — | — | 0xaa221508016dd888ac1539f66c45fac37660e30ad1a73cc2babbeb91c9a539bf | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001520078e6317dd6d43ddbda00dce32c2cbafc99361a9d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000f515dcb89e67bb5d52b857d11f6c0cc2ad7d0167000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb0078e6317dd6d43ddbda00dce32c2cbafc99361a9d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000 | 0 | — | 2023-09-06T15:04:11.990Z | 0x98fde0e52fd38eee6d319b3e45bcaff48237384c | 2023-09-10T16:57:36.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:24.198Z | 2026-03-11T22:14:24.198Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 42161 | a9f8b6de-d737-4837-bffc-336167a0af6e | 0x4f13bb293eeb4172… | success | — | — | 0xaa221508016dd888… | 0x40a2accbd92bca93… | 0 | present | 0 | 0x78e6317dd6d43ddb… | — | 2023-09-06T15:04:11.990Z | 0x98fde0e52fd38eee… | 2023-09-10T16:57:36.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:24.198Z | 2026-03-11T22:14:24.198Z | present |
 
 ## Action: 8453 — Safe 0x3cb4653f3b45f448d9100b118b75a1503281d2ee — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x3cb4653f3b45f448d9100b118b75a1503281d2ee |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 8453 | 8fe7e340-d56b-4ecb-8835-a5c1fcdef1d1 | 0xdf15e1343a8ff36547c580a1095a9d4367ec5c506815231287546a460e5ada94 | success | — | — | 0x50799fd3fc63c9b6d3eb9b0956504898dbd7c0aa1f7c887dc85a653fb1033955 | 0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000152003cb4653f3b45f448d9100b118b75a1503281d2ee00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000f515dcb89e67bb5d52b857d11f6c0cc2ad7d0167000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb003cb4653f3b45f448d9100b118b75a1503281d2ee000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000 | 0 | — | 2023-09-06T15:01:26.731Z | 0x98fde0e52fd38eee6d319b3e45bcaff48237384c | 2023-09-10T16:57:01.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:22.949Z | 2026-03-11T22:14:22.949Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8453 | 8fe7e340-d56b-4ecb-8835-a5c1fcdef1d1 | 0xdf15e1343a8ff365… | success | — | — | 0x50799fd3fc63c9b6… | 0xa1dabef33b3b82c7… | 0 | present | 0 | 0x3cb4653f3b45f448… | — | 2023-09-06T15:01:26.731Z | 0x98fde0e52fd38eee… | 2023-09-10T16:57:01.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:22.949Z | 2026-03-11T22:14:22.949Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | 72471d2a-1297-47b2-b492-87911840522f | 0x30b32735791d86ef41216938c970236ede0abc6869af28824543b404535c3d72 | success | — | — | 0xde88f4614936301cffef6100c41e16e0ed722cf89559e1a033a8fdf5bc20b6cb | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000152008ab717cac3cbc4934e63825b88442f5810aaf6e500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000f515dcb89e67bb5d52b857d11f6c0cc2ad7d0167000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb008ab717cac3cbc4934e63825b88442f5810aaf6e5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000 | 1 | — | 2023-09-01T01:19:32.326Z | 0xdd659911ecbd4458db07ee7cddec79bf8f859abc | 2023-09-06T21:12:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.081Z | 2026-03-11T22:14:19.081Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | 72471d2a-1297-47b2-b492-87911840522f | 0x30b32735791d86ef… | success | — | — | 0xde88f4614936301c… | 0x40a2accbd92bca93… | 0 | present | 1 | 0x8ab717cac3cbc493… | — | 2023-09-01T01:19:32.326Z | 0xdd659911ecbd4458… | 2023-09-06T21:12:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.081Z | 2026-03-11T22:14:19.081Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 48
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 48 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | cafe0c11-067a-48b0-9bb8-ec73ba72deb0 | 0xe4d6a7f19588c869e15879bec187c1d41b5793d8dff0f7f018abe393354b2e3d | success | — | — | 0x4acbce7bac1a4fc0d284df2b473509dde1c80657efa6dbfc1dc4bbed8eae7c39 | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000015200bbf3f1421d886e9b2c5d716b5192ac998af2012c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064e318b52b0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000f515dcb89e67bb5d52b857d11f6c0cc2ad7d0167000000000000000000000000d04e545c665741cd99d1b9d9cd96396f0f8166fb00bbf3f1421d886e9b2c5d716b5192ac998af2012c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000440d582f130000000000000000000000002c96f0403eabc1f11fe737566dedb183a019763b00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000 | 48 | — | 2023-08-30T18:35:49.566Z | 0x98fde0e52fd38eee6d319b3e45bcaff48237384c | 2023-08-31T16:13:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.966Z | 2026-03-11T22:14:14.966Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | cafe0c11-067a-48b0-9bb8-ec73ba72deb0 | 0xe4d6a7f19588c869… | success | — | — | 0x4acbce7bac1a4fc0… | 0x40a2accbd92bca93… | 0 | present | 48 | 0xbbf3f1421d886e9b… | — | 2023-08-30T18:35:49.566Z | 0x98fde0e52fd38eee… | 2023-08-31T16:13:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.966Z | 2026-03-11T22:14:14.966Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 47
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 47 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b706d3da-478e-4940-91ae-f947ccccb27f | 0x31fa94efe589704cba652ef287b99b7106e23f09769bd1bc98fa865eac53ca5f | success | — | — | 0x7d4b430a1390dbf2b73fe4e478745954f77a9ac95ea6b50ca8ef17aec90e8f40 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 47 | — | 2023-06-12T15:02:26.889Z | 0x98fde0e52fd38eee6d319b3e45bcaff48237384c | 2023-06-12T21:38:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.967Z | 2026-03-11T22:14:14.967Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b706d3da-478e-4940-91ae-f947ccccb27f | 0x31fa94efe589704c… | success | — | — | 0x7d4b430a1390dbf2… | 0xbbf3f1421d886e9b… | 0 | — | 47 | 0xbbf3f1421d886e9b… | — | 2023-06-12T15:02:26.889Z | 0x98fde0e52fd38eee… | 2023-06-12T21:38:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.967Z | 2026-03-11T22:14:14.967Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 47
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 47 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 4e9cfd80-12dc-4c1e-baa5-833e7e9ab937 | 0xc433f196a10268b0998726c050328026f19dd95cf6642ac429b9114e560b2b82 | pending | — | — | — | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132003d9819210a31b4961b30ef54be2aed79b9c9cd3b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000443bcf7ec10000000000000000000000004b0181102a0112a2ef11abee5563bb4a3176c9d70000000000000000000000000000000000000000000000000000000000000001003d9819210a31b4961b30ef54be2aed79b9c9cd3b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004418c882a50000000000000000000000004b0181102a0112a2ef11abee5563bb4a3176c9d700000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000 | 47 | — | 2023-06-10T19:19:09.501Z | — | — | 4 | 4 | 4 entries | 2026-03-11T22:14:14.969Z | 2026-03-11T22:14:14.969Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 4e9cfd80-12dc-4c1e-baa5-833e7e9ab937 | 0xc433f196a10268b0… | pending | — | — | — | 0x40a2accbd92bca93… | 0 | present | 47 | 0xbbf3f1421d886e9b… | — | 2023-06-10T19:19:09.501Z | — | — | 4 | 4 | 4 entries | 2026-03-11T22:14:14.969Z | 2026-03-11T22:14:14.969Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 46
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 46 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | a9d46336-6feb-4a9a-81eb-094c8380f639 | 0x4d7fb39f64917ce4be9bceaa75fbf1effd651d801f122035ee66941bc5263211 | success | — | — | 0xe06862e94d820db093c5040990519c9fc072b20a254332b283a070a8e6321488 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000ec405bcd169633c0d8edc8ef869e164e42b9ec1e000000000000000000000000000000000000000000000000000000006544aec0 | 46 | — | 2023-03-27T16:47:51.755Z | 0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915 | 2023-03-28T16:57:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.970Z | 2026-03-11T22:14:14.970Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | a9d46336-6feb-4a9a-81eb-094c8380f639 | 0x4d7fb39f64917ce4… | success | — | — | 0xe06862e94d820db0… | 0xc0da02939e1441f4… | 0 | present | 46 | 0xbbf3f1421d886e9b… | — | 2023-03-27T16:47:51.755Z | 0x6103db328d4864dc… | 2023-03-28T16:57:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.970Z | 2026-03-11T22:14:14.970Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 45
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 45 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0bbb70a6-d889-46d2-8ae0-712d5472a5a5 | 0x6933f7e0679da9b08ae4a870a9d4479480da136cda5b64e639634b9e0d30f19f | success | — | — | 0xe06862e94d820db093c5040990519c9fc072b20a254332b283a070a8e6321488 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f546000000000000000000000000683a4f9915d6216f73d6df50151725036bd26c02000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc | 45 | — | 2023-03-27T16:43:12.578Z | 0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915 | 2023-03-28T16:57:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.972Z | 2026-03-11T22:14:14.972Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0bbb70a6-d889-46d2-8ae0-712d5472a5a5 | 0x6933f7e0679da9b0… | success | — | — | 0xe06862e94d820db0… | 0xbbf3f1421d886e9b… | 0 | present | 45 | 0xbbf3f1421d886e9b… | — | 2023-03-27T16:43:12.578Z | 0x6103db328d4864dc… | 2023-03-28T16:57:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.972Z | 2026-03-11T22:14:14.972Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 44
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 44 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 639f598e-13a3-478a-854c-54089244b988 | 0x7abca2679de39540e7945765b5d864944cef047f37e8926206ae6498afe09168 | success | — | — | 0x915fa76ecabcf8ee07c04d4f128cddc45e8d6faba201fcff31697ed73fd4a23d | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 44 | — | 2023-03-13T02:52:54.176Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2023-03-28T00:35:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.974Z | 2026-03-11T22:14:14.974Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 639f598e-13a3-478a-854c-54089244b988 | 0x7abca2679de39540… | success | — | — | 0x915fa76ecabcf8ee… | 0xbbf3f1421d886e9b… | 0 | — | 44 | 0xbbf3f1421d886e9b… | — | 2023-03-13T02:52:54.176Z | 0xc3aae58ab8166387… | 2023-03-28T00:35:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.974Z | 2026-03-11T22:14:14.974Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 44
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 44 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 3bce0c13-40cc-400a-a7e9-321db427fc45 | 0x98a2ae8f1fe6c50def4ce07a76a9913675db1e34a5bf85c53d650b17caa5fe94 | pending | — | — | — | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c10000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000026000000000000000000000000000000000000000000000000000000000000000100000000000000000000000006c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e0000000000000000000000005d3a536e4d6dbd6114cc1ead35777bab948e36430000000000000000000000004ddc2d193948926d02f9b1fe9e1daa0718270ed500000000000000000000000039aa39c021dfbae8fac545936693ac917d5e7563000000000000000000000000f650c3d88d12db855b8bf7d11be6c55a4e07dcc9000000000000000000000000b3319f5d18bc0d84dd1b4825dcde5d5f7266d40700000000000000000000000035a18000230da775cac24873d00ff85bccded55000000000000000000000000070e36f6bf80a52b3b46b3af8e106cc0ed743e8e4000000000000000000000000ccf4429db6322d5c611ee964527d42e5d685dd6a00000000000000000000000012392f67bdf24fae0af363c24ac620a2f67dad86000000000000000000000000face851a4921ce59e912d19329929ce6da6eb0c700000000000000000000000095b4ef2869ebd94beb4eee400a99824bf5dc325b0000000000000000000000004b0181102a0112a2ef11abee5563bb4a3176c9d7000000000000000000000000e65cdb6479bac1e22340e4e755fae7e509ecd06c00000000000000000000000080a2ae356fc9ef4305676f7a3e2ed04e12c33946000000000000000000000000041171993284df560249b57358f931d9eb7b925d00000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001 | 44 | — | 2023-03-11T08:02:32.133Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:14.975Z | 2026-03-11T22:14:14.975Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 3bce0c13-40cc-400a-a7e9-321db427fc45 | 0x98a2ae8f1fe6c50d… | pending | — | — | — | 0x3d9819210a31b496… | 0 | present | 44 | 0xbbf3f1421d886e9b… | — | 2023-03-11T08:02:32.133Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:14.975Z | 2026-03-11T22:14:14.975Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 43
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 43 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ba420ffb-d578-4039-8abb-e269179b5f6e | 0x83b5f9d693e8599e0fc3d48bcda0bfc44f9eff1778a3a048aab27e4911971cf5 | success | — | — | 0xa4e3e45f0d8432e6b9495269ae0551add9c060041cde51a760a580daa50d0199 | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x3bcf7ec100000000000000000000000039aa39c021dfbae8fac545936693ac917d5e75630000000000000000000000000000000000000000000000000000000000000001 | 43 | — | 2023-03-11T03:52:33.786Z | 0x88fb3d509fc49b515bfeb04e23f53ba339563981 | 2023-03-11T04:22:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.977Z | 2026-03-11T22:14:14.977Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | ba420ffb-d578-4039-8abb-e269179b5f6e | 0x83b5f9d693e8599e… | success | — | — | 0xa4e3e45f0d8432e6… | 0x3d9819210a31b496… | 0 | present | 43 | 0xbbf3f1421d886e9b… | — | 2023-03-11T03:52:33.786Z | 0x88fb3d509fc49b51… | 2023-03-11T04:22:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.977Z | 2026-03-11T22:14:14.977Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 42
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 42 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 3fccddd6-f620-4b44-8428-31bfbf506845 | 0xfbb656f49dd2f7591948eb78a14a7b0c50609edbfd5f54e6bfd303f39edb9ba4 | success | — | — | 0x726a60f29610ba8e05630a6e581c099e892baed2cfa7f19981540b9a6e0971a0 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d200000000000000000000000038e2051b9a0bdb51fbcda3cadd073148ac664a68000000000000000000000000000000000000000000000000000000006406c4d0 | 42 | — | 2023-02-23T20:37:05.686Z | 0xa5dcec366b04a127d0f4efee183346f25434d648 | 2023-02-24T17:47:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.980Z | 2026-03-11T22:14:14.980Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 3fccddd6-f620-4b44-8428-31bfbf506845 | 0xfbb656f49dd2f759… | success | — | — | 0x726a60f29610ba8e… | 0xc0da02939e1441f4… | 0 | present | 42 | 0xbbf3f1421d886e9b… | — | 2023-02-23T20:37:05.686Z | 0xa5dcec366b04a127… | 2023-02-24T17:47:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.980Z | 2026-03-11T22:14:14.980Z | present |
 
 ## Action: 137 — Safe 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 137 | 6c2560b5-a33f-4ffe-9ea4-69589392689f | 0xd2aa87e6d9bcba96e42e2683c143c208969e4af9badc66a87f759e9bb0cd64f9 | success | — | — | 0xef1ee4b1bd1e766511c92b3f475fcaebdef05230ba541f6c50ce4d233d60ad00 | 0x8ab717cac3cbc4934e63825b88442f5810aaf6e5 | 0 | 0xe318b52b000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f546000000000000000000000000683a4f9915d6216f73d6df50151725036bd26c02000000000000000000000000dd659911ecbd4458db07ee7cddec79bf8f859abc | 0 | — | 2023-02-17T03:03:39.474Z | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2023-02-22T21:02:08.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.083Z | 2026-03-11T22:14:19.083Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | 6c2560b5-a33f-4ffe-9ea4-69589392689f | 0xd2aa87e6d9bcba96… | success | — | — | 0xef1ee4b1bd1e7665… | 0x8ab717cac3cbc493… | 0 | present | 0 | 0x8ab717cac3cbc493… | — | 2023-02-17T03:03:39.474Z | 0x2b384212edc04ae8… | 2023-02-22T21:02:08.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:19.083Z | 2026-03-11T22:14:19.083Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 41
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 41 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | d638b2c7-351d-4bd2-a6de-4ebb7d4840eb | 0x7c5a085a049f03859ed3271a23bc15e7c536365f608e9b86b4931767b4783ed3 | success | — | — | 0x65f1aa097bf6e1857022a53cbb591e3b14c3c8c6393cbb54355f6464f7a74c40 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000007b3c54e17d618cc94dadfe7671c1e2f50c4ecc33000000000000000000000000000000000000000000000000000000006435a5e8 | 41 | — | 2023-02-10T18:25:46.644Z | 0xa28b7d23e9f8d8d5346a7901ecc9ec8ea48baecd | 2023-02-16T23:40:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.982Z | 2026-03-11T22:14:14.982Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | d638b2c7-351d-4bd2-a6de-4ebb7d4840eb | 0x7c5a085a049f0385… | success | — | — | 0x65f1aa097bf6e185… | 0xc0da02939e1441f4… | 0 | present | 41 | 0xbbf3f1421d886e9b… | — | 2023-02-10T18:25:46.644Z | 0xa28b7d23e9f8d8d5… | 2023-02-16T23:40:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.982Z | 2026-03-11T22:14:14.982Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 40
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 40 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b2c315b0-d85c-4ac0-921c-2970a82d1a2f | 0x8dbbb965afb98a289c71c25b9ff54ad5891f5d0d72e4217ee51c9492b82a38b4 | success | — | — | 0x13c111c564e05a4cdf873f8d47586d4486f12f5382cf7ffbcc954c3f5e34fdda | 0x50ce56a3239671ab62f185704caedf626352741e | 0 | 0x79ba5097 | 40 | — | 2023-01-17T19:33:18.483Z | 0xa28b7d23e9f8d8d5346a7901ecc9ec8ea48baecd | 2023-01-17T23:06:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.983Z | 2026-03-11T22:14:14.983Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b2c315b0-d85c-4ac0-921c-2970a82d1a2f | 0x8dbbb965afb98a28… | success | — | — | 0x13c111c564e05a4c… | 0x50ce56a3239671ab… | 0 | present | 40 | 0xbbf3f1421d886e9b… | — | 2023-01-17T19:33:18.483Z | 0xa28b7d23e9f8d8d5… | 2023-01-17T23:06:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.983Z | 2026-03-11T22:14:14.983Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 39
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 39 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 54a1e988-caa5-4720-bc7e-bc0da8e654f5 | 0x30d805519685e58f991cbd98d54a59bb79f2e0b13f9778ff20f1725ac13743aa | success | — | — | 0x68d2575cd42b8736421adea30aadbb66a44f9e61fe6ccdb1ba7d245f39e62075 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f5460000000000000000000000008b8592e9570e96166336603a1b4bd1e8db20fa20000000000000000000000000683a4f9915d6216f73d6df50151725036bd26c02 | 39 | — | 2022-12-01T22:47:04.806Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2022-12-06T02:36:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.985Z | 2026-03-11T22:14:14.985Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 54a1e988-caa5-4720-bc7e-bc0da8e654f5 | 0x30d805519685e58f… | success | — | — | 0x68d2575cd42b8736… | 0xbbf3f1421d886e9b… | 0 | present | 39 | 0xbbf3f1421d886e9b… | — | 2022-12-01T22:47:04.806Z | 0xc3aae58ab8166387… | 2022-12-06T02:36:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.985Z | 2026-03-11T22:14:14.985Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 37
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 37 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 773ff4e9-ffc3-4c4d-8d3a-5ae92fccb1c2 | 0xf6714707d88de20970198422847537ecb2071fd3b16ed3b1935e8ebbf56b7e04 | pending | — | — | — | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 37 | — | 2022-11-07T19:54:05.971Z | — | — | 4 | 3 | 3 entries | 2026-03-11T22:14:14.988Z | 2026-03-11T22:14:14.988Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 773ff4e9-ffc3-4c4d-8d3a-5ae92fccb1c2 | 0xf6714707d88de209… | pending | — | — | — | 0xbbf3f1421d886e9b… | 0 | — | 37 | 0xbbf3f1421d886e9b… | — | 2022-11-07T19:54:05.971Z | — | — | 4 | 3 | 3 entries | 2026-03-11T22:14:14.988Z | 2026-03-11T22:14:14.988Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 38
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 38 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b97d6487-166e-4587-b9b4-ac86e362a05a | 0x0e7538260f1811ddaec4309fa00bd730baa0b10b73e2dbd63350ce4165694bb9 | success | — | — | 0x84a7ba543ee51ad8229ad4d7ab992e9cc57da8a1c6c6fd0601e49108b61ad119 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d200000000000000000000000038e2051b9a0bdb51fbcda3cadd073148ac664a68000000000000000000000000000000000000000000000000000000006385039f | 38 | — | 2022-11-07T18:55:46.796Z | 0x7e4a8391c728fed9069b2962699ab416628b19fa | 2022-11-16T00:20:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.987Z | 2026-03-11T22:14:14.987Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b97d6487-166e-4587-b9b4-ac86e362a05a | 0x0e7538260f1811dd… | success | — | — | 0x84a7ba543ee51ad8… | 0xc0da02939e1441f4… | 0 | present | 38 | 0xbbf3f1421d886e9b… | — | 2022-11-07T18:55:46.796Z | 0x7e4a8391c728fed9… | 2022-11-16T00:20:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.987Z | 2026-03-11T22:14:14.987Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 36
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 36 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | a423da95-eb5e-4c9e-b53e-cb120f4b9a09 | 0xaf1d10e5decefc0535a0857f20ad2a65790e3313635dfb94f59a241ffda0d6fa | success | — | — | 0xfdf443d48cbec3fc09d2f527db85a7a097948026959792da05c7a02feb131931 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 36 | — | 2022-11-01T20:51:28.983Z | 0xf515dcb89e67bb5d52b857d11f6c0cc2ad7d0167 | 2022-11-03T16:25:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.991Z | 2026-03-11T22:14:14.991Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | a423da95-eb5e-4c9e-b53e-cb120f4b9a09 | 0xaf1d10e5decefc05… | success | — | — | 0xfdf443d48cbec3fc… | 0xbbf3f1421d886e9b… | 0 | — | 36 | 0xbbf3f1421d886e9b… | — | 2022-11-01T20:51:28.983Z | 0xf515dcb89e67bb5d… | 2022-11-03T16:25:47.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.991Z | 2026-03-11T22:14:14.991Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 37
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 37 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ecb33630-60f2-4b3e-a45d-b96254fa6802 | 0xa1f163ff29eb8f7a95ddd75c6a26a884e4dc787bc0829c580f8f536a0458d85b | success | — | — | 0xf4c74e4b21fcb7b22b32dd865996abe7484bd5e2fc69c8831a022c9f2e10a83f | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d200000000000000000000000038e2051b9a0bdb51fbcda3cadd073148ac664a680000000000000000000000000000000000000000000000000000000063713bae | 37 | — | 2022-11-01T18:47:41.255Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2022-11-08T23:56:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.990Z | 2026-03-11T22:14:14.990Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | ecb33630-60f2-4b3e-a45d-b96254fa6802 | 0xa1f163ff29eb8f7a… | success | — | — | 0xf4c74e4b21fcb7b2… | 0xc0da02939e1441f4… | 0 | present | 37 | 0xbbf3f1421d886e9b… | — | 2022-11-01T18:47:41.255Z | 0xc3aae58ab8166387… | 2022-11-08T23:56:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.990Z | 2026-03-11T22:14:14.990Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 36
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 36 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | b3d08ef1-478b-4c45-aa70-7853a02d44b2 | 0x1e951f5af265795323d8223eb9bca84ab0ec9435fd738ec054bd89e84aeabb06 | pending | — | — | — | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d200000000000000000000000038e2051b9a0bdb51fbcda3cadd073148ac664a6800000000000000000000000000000000000000000000000000000000636a986d | 36 | — | 2022-11-01T18:00:13.705Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:14.993Z | 2026-03-11T22:14:14.993Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | b3d08ef1-478b-4c45-aa70-7853a02d44b2 | 0x1e951f5af2657953… | pending | — | — | — | 0xc0da02939e1441f4… | 0 | present | 36 | 0xbbf3f1421d886e9b… | — | 2022-11-01T18:00:13.705Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:14.993Z | 2026-03-11T22:14:14.993Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 35
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 35 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 33bafc77-c578-4ea3-b0dc-d4d6d87a94e1 | 0xa1d90fee0bcda883019f65fd4bcbd1a869bcf581c0585b523b741e13fe339264 | success | — | — | 0x5ba5f4e738b42852bd6ca9f3021a7e02d6126d3156b8e248abdb96076e366a74 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 35 | — | 2022-09-06T21:04:43.653Z | 0xf515dcb89e67bb5d52b857d11f6c0cc2ad7d0167 | 2022-11-03T16:24:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.995Z | 2026-03-11T22:14:14.995Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 33bafc77-c578-4ea3-b0dc-d4d6d87a94e1 | 0xa1d90fee0bcda883… | success | — | — | 0x5ba5f4e738b42852… | 0xbbf3f1421d886e9b… | 0 | — | 35 | 0xbbf3f1421d886e9b… | — | 2022-09-06T21:04:43.653Z | 0xf515dcb89e67bb5d… | 2022-11-03T16:24:11.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.995Z | 2026-03-11T22:14:14.995Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 35
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 35 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 26f0be26-2062-4872-b583-b32f612c95e6 | 0x235b3a55f1db54f5c5497f1431005996bffbc8fe172a28c8061d4f756a64259b | pending | — | — | — | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c1000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000001c0000000000000000000000000000000000000000000000000000000000000000b0000000000000000000000004ddc2d193948926d02f9b1fe9e1daa0718270ed5000000000000000000000000ccf4429db6322d5c611ee964527d42e5d685dd6a000000000000000000000000face851a4921ce59e912d19329929ce6da6eb0c700000000000000000000000035a18000230da775cac24873d00ff85bccded55000000000000000000000000070e36f6bf80a52b3b46b3af8e106cc0ed743e8e40000000000000000000000006c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e000000000000000000000000b3319f5d18bc0d84dd1b4825dcde5d5f7266d407000000000000000000000000e65cdb6479bac1e22340e4e755fae7e509ecd06c0000000000000000000000004b0181102a0112a2ef11abee5563bb4a3176c9d700000000000000000000000080a2ae356fc9ef4305676f7a3e2ed04e12c3394600000000000000000000000095b4ef2869ebd94beb4eee400a99824bf5dc325b000000000000000000000000000000000000000000000000000000000000000b00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001 | 35 | — | 2022-08-31T19:34:54.487Z | — | — | 4 | 3 | 3 entries | 2026-03-11T22:14:14.996Z | 2026-03-11T22:14:14.996Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 26f0be26-2062-4872-b583-b32f612c95e6 | 0x235b3a55f1db54f5… | pending | — | — | — | 0x3d9819210a31b496… | 0 | present | 35 | 0xbbf3f1421d886e9b… | — | 2022-08-31T19:34:54.487Z | — | — | 4 | 3 | 3 entries | 2026-03-11T22:14:14.996Z | 2026-03-11T22:14:14.996Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 34
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 34 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 08c99919-8892-47cb-bb50-8912a67d7f7a | 0xa1c342bdb5c8606ef9494289d0b667561462e0cdb4e113dddef58595e453f909 | success | — | — | 0x4fb92ba52ff42cb8010ab2430d50a40b21567a000c7cbfc3bca0e51b3063938f | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000000000000000000000000000000000000632bddc0 | 34 | — | 2022-06-22T03:45:00.676Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2022-07-21T05:36:45.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.997Z | 2026-03-11T22:14:14.997Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 08c99919-8892-47cb-bb50-8912a67d7f7a | 0xa1c342bdb5c8606e… | success | — | — | 0x4fb92ba52ff42cb8… | 0xc0da02939e1441f4… | 0 | present | 34 | 0xbbf3f1421d886e9b… | — | 2022-06-22T03:45:00.676Z | 0x54a37d93e57c5da6… | 2022-07-21T05:36:45.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:14.997Z | 2026-03-11T22:14:14.997Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 33
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 33 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 6f57bb39-8c4b-46cb-9626-0df39ef707a5 | 0xee9e1949c53fd8d9db3ac53e4ac226e5d8849f0aaa722eb44a78827bce545ba7 | success | — | — | 0xf17ed9500a4fe3c55e94e0ffa649afd8fc35cbbf8b17c660e17d87d33f643ee1 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000eda2f12c6bba77e426a276a0f801fcd69593a36a000000000000000000000000000000000000000000000000000000006296ac00 | 33 | — | 2022-04-29T21:19:53.329Z | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2022-05-02T23:41:40.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.000Z | 2026-03-11T22:14:15.000Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 6f57bb39-8c4b-46cb-9626-0df39ef707a5 | 0xee9e1949c53fd8d9… | success | — | — | 0xf17ed9500a4fe3c5… | 0xc0da02939e1441f4… | 0 | present | 33 | 0xbbf3f1421d886e9b… | — | 2022-04-29T21:19:53.329Z | 0x2b384212edc04ae8… | 2022-05-02T23:41:40.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.000Z | 2026-03-11T22:14:15.000Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 32
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 32 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 68825440-50d3-4382-a994-eea525ff8172 | 0x7dccaddca1a37e1a75efd6a549793e762951348d09ead5cac1468d47dfadbecf | success | — | — | 0x3a7e3775764d0659075a46d297971a6501cad8712d8330487a43eae58ec2decb | 0x65c816077c29b557bee980ae3cc2dce80204a0c5 | 0 | 0x79ba5097 | 32 | — | 2022-03-17T16:05:06.102Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2022-03-22T21:42:22.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.001Z | 2026-03-11T22:14:15.001Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 68825440-50d3-4382-a994-eea525ff8172 | 0x7dccaddca1a37e1a… | success | — | — | 0x3a7e3775764d0659… | 0x65c816077c29b557… | 0 | present | 32 | 0xbbf3f1421d886e9b… | — | 2022-03-17T16:05:06.102Z | 0xc3aae58ab8166387… | 2022-03-22T21:42:22.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.001Z | 2026-03-11T22:14:15.001Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 31
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 31 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | f1c87a42-18fc-4357-a7db-2b672bec2cd5 | 0xd8679304f19f6647abeb740610c32b33849c6fdcb41a76f5a7e5207329a1dd68 | success | — | — | 0x04d29ffce9afe9ac63e247098f2d4cfc12a7ab1f53cbfa61297788b3eb02096f | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000eda2f12c6bba77e426a276a0f801fcd69593a36a00000000000000000000000000000000000000000000000000000000624f1332 | 31 | — | 2022-03-07T16:37:18.595Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2022-03-08T23:47:25.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.002Z | 2026-03-11T22:14:15.002Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | f1c87a42-18fc-4357-a7db-2b672bec2cd5 | 0xd8679304f19f6647… | success | — | — | 0x04d29ffce9afe9ac… | 0xc0da02939e1441f4… | 0 | present | 31 | 0xbbf3f1421d886e9b… | — | 2022-03-07T16:37:18.595Z | 0xc3aae58ab8166387… | 2022-03-08T23:47:25.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.002Z | 2026-03-11T22:14:15.002Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 30
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 30 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | c4916255-2250-48ea-8852-920ae748b81e | 0x995d0eb4c77cdbab4f4f66f5f18bd13d4542986b848d86670f7254a97904eb6a | success | — | — | 0x762d0fb61938fccef7981432867ffb964826368e3a17bc794226514362e346a7 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000007ae109a63ff4dc852e063a673b40bed85d22e5850000000000000000000000000000000000000000000000000000000062490223 | 30 | — | 2022-03-03T02:12:36.074Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2022-03-08T23:46:00.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.004Z | 2026-03-11T22:14:15.004Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | c4916255-2250-48ea-8852-920ae748b81e | 0x995d0eb4c77cdbab… | success | — | — | 0x762d0fb61938fcce… | 0xc0da02939e1441f4… | 0 | present | 30 | 0xbbf3f1421d886e9b… | — | 2022-03-03T02:12:36.074Z | 0xc3aae58ab8166387… | 2022-03-08T23:46:00.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.004Z | 2026-03-11T22:14:15.004Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 29
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 29 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 75483474-1b83-49c6-8254-672ad5e6bf86 | 0xe74634484ac386d00db23ab2e33bef773c676003e6c1ce1479218bc25a2f182f | success | — | — | 0x58d65885cdebfcf5fd32a834668d554686f0b78887918f7e9a8a2e7e5aa07e6b | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000589cdcf60aea6b961720214e80b713eb66b89a4d00000000000000000000000000000000000000000000000000000000628a823a | 29 | — | 2022-02-22T18:35:07.283Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2022-02-23T02:19:06.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.006Z | 2026-03-11T22:14:15.006Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 75483474-1b83-49c6-8254-672ad5e6bf86 | 0xe74634484ac386d0… | success | — | — | 0x58d65885cdebfcf5… | 0xc0da02939e1441f4… | 0 | present | 29 | 0xbbf3f1421d886e9b… | — | 2022-02-22T18:35:07.283Z | 0xc3aae58ab8166387… | 2022-02-23T02:19:06.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.006Z | 2026-03-11T22:14:15.006Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 28
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 28 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | c7138a7e-d3d9-446c-bcc3-5c5c1574ff9f | 0x24436a0230cc128f18dda151e31576f6a15eb1f037dfccea946d863c6e483af0 | success | — | — | 0xac33231ae52c7b2cb054f8e2bd364a39bd2e9dbd24ca1a951fb8069e0ef34074 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000007ae109a63ff4dc852e063a673b40bed85d22e5850000000000000000000000000000000000000000000000000000000062103300 | 28 | — | 2022-01-28T19:51:39.502Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2022-01-28T23:20:38.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.007Z | 2026-03-11T22:14:15.007Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | c7138a7e-d3d9-446c-bcc3-5c5c1574ff9f | 0x24436a0230cc128f… | success | — | — | 0xac33231ae52c7b2c… | 0xc0da02939e1441f4… | 0 | present | 28 | 0xbbf3f1421d886e9b… | — | 2022-01-28T19:51:39.502Z | 0x54a37d93e57c5da6… | 2022-01-28T23:20:38.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.007Z | 2026-03-11T22:14:15.007Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 27
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 27 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2e5054d3-8854-449e-b19b-0d40a4be5431 | 0x7868a8001f68cbbd9056f4a913dd4897c76b654368d5e2b4cb7a43b673db1088 | success | — | — | 0xf95d1d7479ee2bf6bf41ba80033a8accc9b79309953b4bf00eb2c127b1f0c1b2 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000589cdcf60aea6b961720214e80b713eb66b89a4d0000000000000000000000000000000000000000000000000000000061f72680 | 27 | — | 2021-12-30T20:18:04.681Z | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2022-01-03T22:13:32.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.008Z | 2026-03-11T22:14:15.008Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2e5054d3-8854-449e-b19b-0d40a4be5431 | 0x7868a8001f68cbbd… | success | — | — | 0xf95d1d7479ee2bf6… | 0xc0da02939e1441f4… | 0 | present | 27 | 0xbbf3f1421d886e9b… | — | 2021-12-30T20:18:04.681Z | 0x2b384212edc04ae8… | 2022-01-03T22:13:32.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.008Z | 2026-03-11T22:14:15.008Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 26
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 26 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | c77967a3-0804-484c-a6f5-89a99255ea3d | 0xf959c7f4e9bb66dac683a3089334bd2836589b62fbeda465919a149fbfd55268 | success | — | — | 0xfc1410d54c2542f1886d686b9751e225285d2988220b715868e24a9e92b1b476 | 0x046728da7cb8272284238bd3e47909823d63a58d | 0 | 0x79ba5097 | 26 | — | 2021-12-21T15:35:34.478Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-12-24T23:33:54.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.010Z | 2026-03-11T22:14:15.010Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | c77967a3-0804-484c-a6f5-89a99255ea3d | 0xf959c7f4e9bb66da… | success | — | — | 0xfc1410d54c2542f1… | 0x046728da7cb82722… | 0 | present | 26 | 0xbbf3f1421d886e9b… | — | 2021-12-21T15:35:34.478Z | 0x54a37d93e57c5da6… | 2021-12-24T23:33:54.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.010Z | 2026-03-11T22:14:15.010Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 25
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 25 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 817a3b19-475d-45a2-abba-ec2fb81bd26c | 0x07aa4373c0774fc07ed252c7bf61cd482dfc026cfb5f859841772b28f7f511cc | success | — | — | 0x5c7aba4bacbe5b39360e23b9fe7b07c44175fdf7121dc34512d4447c432dd2de | 0x40a2accbd92bca938b02010e17a5b8929b49130d | 0 | 0x8d80ff0a000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000001cb00c0da02939e1441f497fd74f78ce7decb17b66529000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000444d6733d2000000000000000000000000c44f30be3ebbefddbb5a85168710b4f0e18f4ff00000000000000000000000000000000000000000000000000000000061cba50000c0da02939e1441f497fd74f78ce7decb17b66529000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000444d6733d2000000000000000000000000e6604cc8d9bc49f7dbf9e7f9fbf91a7d7bb6b1f80000000000000000000000000000000000000000000000000000000061cba50000c0da02939e1441f497fd74f78ce7decb17b66529000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000444d6733d2000000000000000000000000ec405bcd169633c0d8edc8ef869e164e42b9ec1e0000000000000000000000000000000000000000000000000000000061cba500000000000000000000000000000000000000000000 | 25 | — | 2021-12-08T18:15:30.046Z | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2021-12-09T00:22:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.012Z | 2026-03-11T22:14:15.012Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 817a3b19-475d-45a2-abba-ec2fb81bd26c | 0x07aa4373c0774fc0… | success | — | — | 0x5c7aba4bacbe5b39… | 0x40a2accbd92bca93… | 0 | present | 25 | 0xbbf3f1421d886e9b… | — | 2021-12-08T18:15:30.046Z | 0x2b384212edc04ae8… | 2021-12-09T00:22:59.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.012Z | 2026-03-11T22:14:15.012Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 24
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 24 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | ced5a937-d4ee-403e-b0ed-729abb02bbb5 | 0x3cef462b7e5aac24167c1816db67304413590e76926c48c9e12da1994aea596d | success | — | — | 0xf0aa938ed97e591010d213506d307310e51eafcbfe938094084d1e5a86692cda | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000000000000000000000000000000000000626f02e0 | 24 | — | 2021-12-01T20:03:53.534Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-12-07T15:01:50.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.014Z | 2026-03-11T22:14:15.014Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | ced5a937-d4ee-403e-b0ed-729abb02bbb5 | 0x3cef462b7e5aac24… | success | — | — | 0xf0aa938ed97e5910… | 0xc0da02939e1441f4… | 0 | present | 24 | 0xbbf3f1421d886e9b… | — | 2021-12-01T20:03:53.534Z | 0x54a37d93e57c5da6… | 2021-12-07T15:01:50.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.014Z | 2026-03-11T22:14:15.014Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 23
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 23 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2a6c6104-2782-4824-9f2c-70dbad1ca671 | 0x62ff54b5e07b6bf5046bfe5f3733685c374cad346f612803f247e31fba7e45eb | success | — | — | 0x6dfea853b3c836e524b0987abe55f08f23b29087ff79684f7f23f1ba97af4d0c | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000c8a69971daa3c3add85ab0d0af297515769ddffc00000000000000000000000000000000000000000000000000000000626f02e0 | 23 | — | 2021-12-01T20:03:29.891Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-12-07T14:59:57.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.015Z | 2026-03-11T22:14:15.015Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2a6c6104-2782-4824-9f2c-70dbad1ca671 | 0x62ff54b5e07b6bf5… | success | — | — | 0x6dfea853b3c836e5… | 0xc0da02939e1441f4… | 0 | present | 23 | 0xbbf3f1421d886e9b… | — | 2021-12-01T20:03:29.891Z | 0x54a37d93e57c5da6… | 2021-12-07T14:59:57.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.015Z | 2026-03-11T22:14:15.015Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 22
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 22 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 5e3df058-1c6a-4d8f-8dea-6ad8766cebd4 | 0x63359e96be7924c2585ebfa641b10d716e69aa3276fe1302d30df68226f8a7f3 | success | — | — | 0x31baf397a7a90339ec8fa74f5b0049ab440ac5dd9d91e16b7748062908ee89ef | 0xc18360217d8f7ab5e7c516566761ea12ce7f9d72 | 0 | 0x761229030000000000000000000000000000000000000000000000055d36302fc0f9c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000001279f76050329fb569cb7ab7e729137f8465fc785272724a8dcf214d7747eba405512ed55b6d533a2f06608b51d4a0e9aba0b5c0238a9916cc040470bc147973f9d44e8ce4b5fcad6c8d01aa05d0d80cadf417bbd6c27057147a52ed2b730bdb2dd07880b05707aeea6b2187b020ea054e6896ece81f0586477234c98366d82dba9127580bbe95c041ea462f06457f233ff2976ca40af8f5ec5c4ae245b765ad5a6a246f0e5342b88726a3d932cdb800ff0bca7a8763c61b7a7607473e2b5019477d5ea1819d04127373c6ac142f775f7fb70ee39b4d322fb91f2523525ce0d7c54d4e843cc25e17705dd2c1ff98effa624f64ba9bb77ce2d27da8297d662e3427909f65458f729159714e1809d89b96f772c96243f366f28ca9e03b85be2c76735021cf870b9693a72a42cf28544b4aa240a1f6b795532e3c95672083f35a85d6ccf249ff56f5829df8240c4285e569f5ab7c877b3f5a449d4de7410cd718423e17c887ea99222607e1a4f6d88c47ba1ebc809bd9010bbfaa7911bb2f892ad697d99c5a21dab09cc4a21b36fe498e02f5ebb648e346a2ce70c3c777d451c9957ff07ae0e41ebcbd50f14b1a25adea971561dd4abe9c0bad90c52c423726b1389fe835ce17dd30d83cbbc28aace013cc75b561136e815fb7b33dbaa806e1cae143e6c6e562d0bba34ee00df0032e004f4fda98a319fba37d3bacbff1b11b2e0d638954ecdc07c99ac4a862d008e5dd179f19c899c1b923f33cae8eb31910352a450b8e3f753c0ae0482b1980cbad3eac8d727ae0c0f40d9c23f2e8c8b08e4e9d7b | 22 | — | 2021-11-24T06:00:01.478Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-12-04T15:26:24.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.016Z | 2026-03-11T22:14:15.016Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 5e3df058-1c6a-4d8f-8dea-6ad8766cebd4 | 0x63359e96be7924c2… | success | — | — | 0x31baf397a7a90339… | 0xc18360217d8f7ab5… | 0 | present | 22 | 0xbbf3f1421d886e9b… | — | 2021-11-24T06:00:01.478Z | 0x54a37d93e57c5da6… | 2021-12-04T15:26:24.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.016Z | 2026-03-11T22:14:15.016Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 21
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 21 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 704ed2aa-ab8a-40e7-85a0-19ddb1a4c834 | 0x9e040f57f38b646c9e8e4506bdb36c64313b745e15cf7e5add5a4771104070c7 | success | — | — | 0xfb6330eb14b12e603f088b3dee2868bf753356b85563996d129fa62d01c66935 | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x40e58ee5000000000000000000000000000000000000000000000000000000000000003f | 21 | — | 2021-10-06T19:12:29.009Z | 0xf515dcb89e67bb5d52b857d11f6c0cc2ad7d0167 | 2021-10-07T00:46:48.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.019Z | 2026-03-11T22:14:15.019Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 704ed2aa-ab8a-40e7-85a0-19ddb1a4c834 | 0x9e040f57f38b646c… | success | — | — | 0xfb6330eb14b12e60… | 0xc0da02939e1441f4… | 0 | present | 21 | 0xbbf3f1421d886e9b… | — | 2021-10-06T19:12:29.009Z | 0xf515dcb89e67bb5d… | 2021-10-07T00:46:48.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.019Z | 2026-03-11T22:14:15.019Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 20
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 20 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | a237be04-ea25-40c0-b98d-84eb4e7c7133 | 0xb947984d7ae85e0356c90cf115a20963f0dddeddd8a4b2b0ac688966a19d9073 | success | — | — | 0xadd163c4e3cdec4db19cc8a659db1c1e4c96eb573e26faf6bf43d5638e15c21c | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d2000000000000000000000000c8a69971daa3c3add85ab0d0af297515769ddffc00000000000000000000000000000000000000000000000000000000619adacb | 20 | — | 2021-09-21T00:50:59.043Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-09-21T20:51:21.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.020Z | 2026-03-11T22:14:15.020Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | a237be04-ea25-40c0-b98d-84eb4e7c7133 | 0xb947984d7ae85e03… | success | — | — | 0xadd163c4e3cdec4d… | 0xc0da02939e1441f4… | 0 | present | 20 | 0xbbf3f1421d886e9b… | — | 2021-09-21T00:50:59.043Z | 0x54a37d93e57c5da6… | 2021-09-21T20:51:21.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.020Z | 2026-03-11T22:14:15.020Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 19
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 19 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 67f1f740-bd1d-4e4b-b6c2-00c68290aa71 | 0xd48c73e884c3154d87b12d3fe6adcc850befed4046fedd7fe62658d5bbbb4e15 | success | — | — | 0x2239de9aef48b47e14cdb5caec476628769219818e01b549b44c25d75f5f696f | 0xc0da02939e1441f497fd74f78ce7decb17b66529 | 0 | 0x4d6733d20000000000000000000000002b384212edc04ae8bb41738d05ba20e33277bf3300000000000000000000000000000000000000000000000000000000619adacb | 19 | — | 2021-09-21T00:49:11.500Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-09-21T20:34:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.021Z | 2026-03-11T22:14:15.021Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 67f1f740-bd1d-4e4b-b6c2-00c68290aa71 | 0xd48c73e884c3154d… | success | — | — | 0x2239de9aef48b47e… | 0xc0da02939e1441f4… | 0 | present | 19 | 0xbbf3f1421d886e9b… | — | 2021-09-21T00:49:11.500Z | 0x54a37d93e57c5da6… | 2021-09-21T20:34:35.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.021Z | 2026-03-11T22:14:15.021Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 18
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 18 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bff69032-2b7b-40e1-bcf9-0f8625281969 | 0xd63857fed2cd05ae1fcd42bcd39e5328699d1ffe4a8ae00ffb53aab7bc58734c | success | — | — | 0x187665547a21e08325f0ef66627049ca1b9f7140598e0f6ab670bed2acace4b4 | 0x6d2299c48a8dd07a872fdd0f8233924872ad1071 | 0 | 0x79ba5097 | 18 | — | 2021-07-26T20:19:09.641Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2021-07-26T20:58:45.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.022Z | 2026-03-11T22:14:15.022Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | bff69032-2b7b-40e1-bcf9-0f8625281969 | 0xd63857fed2cd05ae… | success | — | — | 0x187665547a21e083… | 0x6d2299c48a8dd07a… | 0 | present | 18 | 0xbbf3f1421d886e9b… | — | 2021-07-26T20:19:09.641Z | 0xc3aae58ab8166387… | 2021-07-26T20:58:45.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.022Z | 2026-03-11T22:14:15.022Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 17
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 17 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | af6de271-2800-4d42-bf22-55a59e587a3c | 0x58901fa5aea646cceebeea0364d424e3b5f7e532ee9bc93a33889ce78ba319f5 | success | — | — | 0x07b58e78eb19291cf593c5562697a60e0d0a218701ee9f8d80f36d1194767754 | 0x841616a5cba946cf415efe8a326a621a794d0f97 | 0 | 0x79ba5097 | 17 | — | 2021-06-02T01:36:38.634Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2021-06-02T17:33:36.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.025Z | 2026-03-11T22:14:15.025Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | af6de271-2800-4d42-bf22-55a59e587a3c | 0x58901fa5aea646cc… | success | — | — | 0x07b58e78eb19291c… | 0x841616a5cba946cf… | 0 | present | 17 | 0xbbf3f1421d886e9b… | — | 2021-06-02T01:36:38.634Z | 0x54a37d93e57c5da6… | 2021-06-02T17:33:36.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.025Z | 2026-03-11T22:14:15.025Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 16
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 16 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0050ba00-3681-45de-af12-c990f19339e8 | 0x2ce608335e84d11348b55187fed8e0e1290e79927bcb653d074e6d97ebe97539 | success | — | — | 0x14797c75e32c5e85428bfa770447fee83399a2d19cde53b43dbda7a67977fd8d | 0x34ab75d077c148f1ecaa435e7125c16842a0aea3 | 0 | 0x79ba5097 | 16 | — | 2021-05-29T16:07:21.102Z | 0x8b8592e9570e96166336603a1b4bd1e8db20fa20 | 2021-06-01T15:45:37.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.026Z | 2026-03-11T22:14:15.026Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0050ba00-3681-45de-af12-c990f19339e8 | 0x2ce608335e84d113… | success | — | — | 0x14797c75e32c5e85… | 0x34ab75d077c148f1… | 0 | present | 16 | 0xbbf3f1421d886e9b… | — | 2021-05-29T16:07:21.102Z | 0x8b8592e9570e9616… | 2021-06-01T15:45:37.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.026Z | 2026-03-11T22:14:15.026Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 14
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 14 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | a684261a-0daa-4972-a45c-d7d09f20795c | 0xa461a6751cae4747918a16639daa1b05fa30077366239196a29d02f9f79e90b4 | success | — | — | 0xb9021b61c4b119a7c4660c6ed13fbf6a173c5a8bd0b3ce62d74b2d3e6cda9767 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 14 | — | 2021-01-15T20:07:22.333Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2021-01-16T21:30:58.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.029Z | 2026-03-11T22:14:15.029Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | a684261a-0daa-4972-a45c-d7d09f20795c | 0xa461a6751cae4747… | success | — | — | 0xb9021b61c4b119a7… | 0xbbf3f1421d886e9b… | 0 | — | 14 | 0xbbf3f1421d886e9b… | — | 2021-01-15T20:07:22.333Z | 0xc3aae58ab8166387… | 2021-01-16T21:30:58.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.029Z | 2026-03-11T22:14:15.029Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 15
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 15 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2db6e6c5-ed78-40d0-a1ec-581d2f057c6a | 0xc8878912447cb4cd5c1f689f21fab8f9e994065aa6863aab6c1305eabb6d747f | success | — | — | 0x5c7628a1b02d15666f7392ece2aef5a968cb76cc49af6241c3ed8f343b6ee5e6 | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000100000000000000000000000070e36f6bf80a52b3b46b3af8e106cc0ed743e8e40000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000001337913e59e4ab380000 | 15 | — | 2021-01-15T20:07:08.206Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2021-01-16T21:49:41.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.027Z | 2026-03-11T22:14:15.027Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2db6e6c5-ed78-40d0-a1ec-581d2f057c6a | 0xc8878912447cb4cd… | success | — | — | 0x5c7628a1b02d1566… | 0x3d9819210a31b496… | 0 | present | 15 | 0xbbf3f1421d886e9b… | — | 2021-01-15T20:07:08.206Z | 0xc3aae58ab8166387… | 2021-01-16T21:49:41.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.027Z | 2026-03-11T22:14:15.027Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 14
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 14 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 6fc22d45-27fd-4e8f-aa23-3f2036cedf1b | 0xf9ef583bc00aa75b7143b93c9696b2127c52a4cb595962ba8b229b4d5bbb6b0f | pending | — | — | — | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c1000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000001000000000000000000000000c00e94cb662c3520282e6f5717214004a7f268880000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000001337913e59e4ab380000 | 14 | — | 2021-01-15T20:02:52.381Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.031Z | 2026-03-11T22:14:15.031Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 6fc22d45-27fd-4e8f-aa23-3f2036cedf1b | 0xf9ef583bc00aa75b… | pending | — | — | — | 0x3d9819210a31b496… | 0 | present | 14 | 0xbbf3f1421d886e9b… | — | 2021-01-15T20:02:52.381Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.031Z | 2026-03-11T22:14:15.031Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 13
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 13 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | c7c09d56-2e33-44cf-88c4-ecdf30fadf9f | 0x67cd00018259c8e550ed9cadb9a765bae677d878909ee932912906b21ba27ce3 | success | — | — | 0x0d15bcbd281d9cba036f05fc34845d2bdf7a389a84f4e9a30b41f9e555165cf6 | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000100000000000000000000000070e36f6bf80a52b3b46b3af8e106cc0ed743e8e40000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000001178557e80443e900000 | 13 | — | 2020-12-30T20:19:36.653Z | 0xc3aae58ab81663872dd36d73613eb295b167f546 | 2020-12-30T20:51:36.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.032Z | 2026-03-11T22:14:15.032Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | c7c09d56-2e33-44cf-88c4-ecdf30fadf9f | 0x67cd00018259c8e5… | success | — | — | 0x0d15bcbd281d9cba… | 0x3d9819210a31b496… | 0 | present | 13 | 0xbbf3f1421d886e9b… | — | 2020-12-30T20:19:36.653Z | 0xc3aae58ab8166387… | 2020-12-30T20:51:36.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.032Z | 2026-03-11T22:14:15.032Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 12
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 12 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | aca66c88-ae0b-4049-a90f-04ac99ad3212 | 0x8b87862b4c58862aee82173821941b3882019451f14db1f7d6911adda33b1181 | success | — | — | 0x239d30ec5136dff87cd29a5c583c9d976259376ff90ef9dab1abed1d03754d23 | 0x5e4be8bc9637f0eaa1a755019e06a68ce081d58f | 0 | 0x15373e3d00000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000001 | 12 | — | 2020-12-23T05:00:36.282Z | 0x8b8592e9570e96166336603a1b4bd1e8db20fa20 | 2020-12-23T05:09:06.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.034Z | 2026-03-11T22:14:15.034Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | aca66c88-ae0b-4049-a90f-04ac99ad3212 | 0x8b87862b4c58862a… | success | — | — | 0x239d30ec5136dff8… | 0x5e4be8bc9637f0ea… | 0 | present | 12 | 0xbbf3f1421d886e9b… | — | 2020-12-23T05:00:36.282Z | 0x8b8592e9570e9616… | 2020-12-23T05:09:06.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.034Z | 2026-03-11T22:14:15.034Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 11
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 11 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 608f0e8a-2d26-479a-897d-6da001d1c439 | 0x48e39650fbd20f03f501463f3a56d2d368f4ee0d83f5ad705a46fba7311d8133 | success | — | — | 0x4414a2b2a2f0bf6efd1a268d6d0c98375a85c8f2a58c669d04398baad16dea93 | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000100000000000000000000000070e36f6bf80a52b3b46b3af8e106cc0ed743e8e40000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000fe1c215e8f838e00000 | 11 | — | 2020-12-13T21:46:52.409Z | 0x7e4a8391c728fed9069b2962699ab416628b19fa | 2020-12-13T22:01:16.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.035Z | 2026-03-11T22:14:15.035Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 608f0e8a-2d26-479a-897d-6da001d1c439 | 0x48e39650fbd20f03… | success | — | — | 0x4414a2b2a2f0bf6e… | 0x3d9819210a31b496… | 0 | present | 11 | 0xbbf3f1421d886e9b… | — | 2020-12-13T21:46:52.409Z | 0x7e4a8391c728fed9… | 2020-12-13T22:01:16.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.035Z | 2026-03-11T22:14:15.035Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 10
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 10 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | d67008ed-d6ab-4a89-b312-3e52b48268ed | 0x018735f3e4e2823f782d81741c2c47feb596fd790138a30c802a734f77adbc25 | success | — | — | 0x71e34ee655d780d40a936a8decfc212811d7c0504cd1efe6ffe6768b4875d5e2 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0xe318b52b000000000000000000000000f515dcb89e67bb5d52b857d11f6c0cc2ad7d016700000000000000000000000057ded091cea8ffb590d6d72ba64a816bfc3521ff000000000000000000000000c3aae58ab81663872dd36d73613eb295b167f546 | 10 | — | 2020-12-13T21:20:19.957Z | 0x8b8592e9570e96166336603a1b4bd1e8db20fa20 | 2020-12-13T21:32:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.037Z | 2026-03-11T22:14:15.037Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | d67008ed-d6ab-4a89-b312-3e52b48268ed | 0x018735f3e4e2823f… | success | — | — | 0x71e34ee655d780d4… | 0xbbf3f1421d886e9b… | 0 | present | 10 | 0xbbf3f1421d886e9b… | — | 2020-12-13T21:20:19.957Z | 0x8b8592e9570e9616… | 2020-12-13T21:32:23.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.037Z | 2026-03-11T22:14:15.037Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 8
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 8 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | d5d831cd-62af-4ba0-bc60-949d6034764c | 0xdfb8e4844d7ff5597435d721fc773f09430c486fa37a192b400a37bb2c81e9e1 | success | — | — | 0xa6d3e3ddd2f13eb28472b0ed893097488d85c41cc962d476ddde15a8c427e046 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 8 | — | 2020-10-16T19:39:52.541Z | 0x8b8592e9570e96166336603a1b4bd1e8db20fa20 | 2020-10-16T20:16:56.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.040Z | 2026-03-11T22:14:15.040Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | d5d831cd-62af-4ba0-bc60-949d6034764c | 0xdfb8e4844d7ff559… | success | — | — | 0xa6d3e3ddd2f13eb2… | 0xbbf3f1421d886e9b… | 0 | — | 8 | 0xbbf3f1421d886e9b… | — | 2020-10-16T19:39:52.541Z | 0x8b8592e9570e9616… | 2020-10-16T20:16:56.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.040Z | 2026-03-11T22:14:15.040Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 9
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 9 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 94562eed-326e-400b-b8c8-4ab5dd85e2af | 0xae92116cc42e0dd40ff5fe8550ad5f7d29eddb8467792e167f7eceb3509d3e1d | success | — | — | 0xf28d9f7802c66eb8584f686968e5270e1b1c6e904d982ef88d609e7425de4d85 | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000100000000000000000000000035a18000230da775cac24873d00ff85bccded5500000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000094e47b8d6817153400000 | 9 | — | 2020-10-16T19:38:08.391Z | 0x57ded091cea8ffb590d6d72ba64a816bfc3521ff | 2020-10-16T20:29:53.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.039Z | 2026-03-11T22:14:15.039Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 94562eed-326e-400b-b8c8-4ab5dd85e2af | 0xae92116cc42e0dd4… | success | — | — | 0xf28d9f7802c66eb8… | 0x3d9819210a31b496… | 0 | present | 9 | 0xbbf3f1421d886e9b… | — | 2020-10-16T19:38:08.391Z | 0x57ded091cea8ffb5… | 2020-10-16T20:29:53.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.039Z | 2026-03-11T22:14:15.039Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 8
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 8 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 07523d75-2c34-4b82-be65-8b786b95c897 | 0x2fd102988a4aba35be815b282570a763a383df5ae4b27231467dc42c0ee1b86c | pending | — | — | — | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c10000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000010000000000000000000000003d9819210a31b4961b30ef54be2aed79b9c9cd3b0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000094e47b8d6817153400000 | 8 | — | 2020-10-16T19:35:06.350Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.041Z | 2026-03-11T22:14:15.041Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 07523d75-2c34-4b82-be65-8b786b95c897 | 0x2fd102988a4aba35… | pending | — | — | — | 0x3d9819210a31b496… | 0 | present | 8 | 0xbbf3f1421d886e9b… | — | 2020-10-16T19:35:06.350Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.041Z | 2026-03-11T22:14:15.041Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 7
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 7 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 872fa88d-00e0-4225-88eb-f0ea3b80c323 | 0x7221a6b1254e2d007f59f92d4808f5fbcb350951924041ebf0ee612be7528d5e | success | — | — | 0x22d61c13371d6d72343878f034b321e19d63a7ff9b1478efd7f55f3fee00049e | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x607ef6c100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000100000000000000000000000035a18000230da775cac24873d00ff85bccded550000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000006342fd08f00f637800000 | 7 | — | 2020-10-14T21:25:49.554Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2020-10-14T22:04:20.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.044Z | 2026-03-11T22:14:15.044Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 872fa88d-00e0-4225-88eb-f0ea3b80c323 | 0x7221a6b1254e2d00… | success | — | — | 0x22d61c13371d6d72… | 0x3d9819210a31b496… | 0 | present | 7 | 0xbbf3f1421d886e9b… | — | 2020-10-14T21:25:49.554Z | 0x54a37d93e57c5da6… | 2020-10-14T22:04:20.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.044Z | 2026-03-11T22:14:15.044Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | c201f406-1493-4ac7-9fc1-39a6b9d1e0aa | 0x42a4a8f9e147ac09b3d00d206f775067c1868455404aa2ef969752d752d87d64 | success | — | — | 0x3645e920379fa40f456c6a47c7e31c8eb2793403f43239fbe7bdabdbdc12423e | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 4 | — | 2020-08-04T17:44:56.468Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2020-08-05T17:20:21.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.050Z | 2026-03-11T22:14:15.050Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | c201f406-1493-4ac7-9fc1-39a6b9d1e0aa | 0x42a4a8f9e147ac09… | success | — | — | 0x3645e920379fa40f… | 0xbbf3f1421d886e9b… | 0 | — | 4 | 0xbbf3f1421d886e9b… | — | 2020-08-04T17:44:56.468Z | 0x54a37d93e57c5da6… | 2020-08-05T17:20:21.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.050Z | 2026-03-11T22:14:15.050Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 6
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 6 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | c100fa50-3a77-4bcf-b7b4-ce0cb28da26a | 0xe2479c0dc9715de3f41caa37f445c60ffdf280432e04fdd2f1d4a7f60e6ecd0f | failed | — | — | 0x7d9bcbce49d4dfe403731dbca4b3c5df27f7d7baf28f5df554c24767b5811165 | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x18c882a50000000000000000000000006c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e0000000000000000000000000000000000000000000000000000000000000001 | 6 | — | 2020-08-04T17:36:40.763Z | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2020-08-05T17:23:49.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.045Z | 2026-03-11T22:14:15.045Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | c100fa50-3a77-4bcf-b7b4-ce0cb28da26a | 0xe2479c0dc9715de3… | failed | — | — | 0x7d9bcbce49d4dfe4… | 0x3d9819210a31b496… | 0 | present | 6 | 0xbbf3f1421d886e9b… | — | 2020-08-04T17:36:40.763Z | 0x2b384212edc04ae8… | 2020-08-05T17:23:49.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.045Z | 2026-03-11T22:14:15.045Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 5
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 5 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 6d2c407b-7013-4a9d-97c9-4e18df4992cb | 0x4d08814a750a0d868ccec9eb45c525bf4cacf5eac0ece8ec2af8fae31251d8ae | success | — | — | 0xabe4277dd8dea7e2926142ff74967b94c0f5d01f2868f2f67dc4b7f178ebbb7f | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | — | 5 | — | 2020-08-04T17:35:39.450Z | 0x2b384212edc04ae8bb41738d05ba20e33277bf33 | 2020-08-05T17:22:17.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.046Z | 2026-03-11T22:14:15.046Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 6d2c407b-7013-4a9d-97c9-4e18df4992cb | 0x4d08814a750a0d86… | success | — | — | 0xabe4277dd8dea7e2… | 0xbbf3f1421d886e9b… | 0 | — | 5 | 0xbbf3f1421d886e9b… | — | 2020-08-04T17:35:39.450Z | 0x2b384212edc04ae8… | 2020-08-05T17:22:17.000Z | 4 | 4 | 4 entries | 2026-03-11T22:14:15.046Z | 2026-03-11T22:14:15.046Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 5
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 5 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | aa1b8418-fc56-4838-afc6-9a74bf48da85 | 0x5482d454a174eace66bd69b120b6741affa607d9c22824e70a4396834279bc98 | pending | — | — | — | 0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b | 0 | 0x18c882a50000000000000000000000006c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e0000000000000000000000000000000000000000000000000000000000000001 | 5 | — | 2020-08-04T16:47:52.388Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.047Z | 2026-03-11T22:14:15.047Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | aa1b8418-fc56-4838-afc6-9a74bf48da85 | 0x5482d454a174eace… | pending | — | — | — | 0x3d9819210a31b496… | 0 | present | 5 | 0xbbf3f1421d886e9b… | — | 2020-08-04T16:47:52.388Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.047Z | 2026-03-11T22:14:15.047Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 4
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 4 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 79e6ab4f-8b4c-473a-8a0f-d4c0247cd244 | 0x38053fee1b73585e5bd937f09cd8ac39c31ee1f98fb132cd285b6e2efa0c8407 | pending | — | — | — | 0xb522a9f781924ed250a11c54105e51840b138add | 0 | 0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000099003d9819210a31b4961b30ef54be2aed79b9c9cd3b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004418c882a50000000000000000000000006c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e000000000000000000000000000000000000000000000000000000000000000100000000000000 | 4 | — | 2020-08-04T16:32:04.331Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.051Z | 2026-03-11T22:14:15.051Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 79e6ab4f-8b4c-473a-8a0f-d4c0247cd244 | 0x38053fee1b73585e… | pending | — | — | — | 0xb522a9f781924ed2… | 0 | present | 4 | 0xbbf3f1421d886e9b… | — | 2020-08-04T16:32:04.331Z | — | — | 4 | 1 | 1 entries | 2026-03-11T22:14:15.051Z | 2026-03-11T22:14:15.051Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 3
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 3 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | dd38a199-4772-47c2-85d8-763993873c4c | 0x40f23d4b487a6e7cfdf3ef210732ab120441890e66ec384c64e859625ed06538 | success | — | — | 0x62cf6b37a988643358f46c685c2280a3a6512b5d90d1a63c5cf33fc33193d986 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0x0d582f13000000000000000000000000f515dcb89e67bb5d52b857d11f6c0cc2ad7d01670000000000000000000000000000000000000000000000000000000000000004 | 3 | — | 2020-08-02T16:32:03.623Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2020-08-02T19:09:01.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.052Z | 2026-03-11T22:14:15.052Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | dd38a199-4772-47c2-85d8-763993873c4c | 0x40f23d4b487a6e7c… | success | — | — | 0x62cf6b37a9886433… | 0xbbf3f1421d886e9b… | 0 | present | 3 | 0xbbf3f1421d886e9b… | — | 2020-08-02T16:32:03.623Z | 0x54a37d93e57c5da6… | 2020-08-02T19:09:01.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.052Z | 2026-03-11T22:14:15.052Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 2
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 2 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 826872e6-60d7-46cb-901d-c0ae112c39ce | 0xe8e681d014c6c57df89d07381254ce414b6e371fd90047f084724d46b2796c97 | success | — | — | 0xee59a0c73aaa421e13596937741f72f372c31b7a60689e4c1cdc7f84a32bc116 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0x0d582f1300000000000000000000000057ded091cea8ffb590d6d72ba64a816bfc3521ff0000000000000000000000000000000000000000000000000000000000000002 | 2 | — | 2020-08-01T20:12:39.761Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2020-08-02T16:24:35.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.053Z | 2026-03-11T22:14:15.053Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 826872e6-60d7-46cb-901d-c0ae112c39ce | 0xe8e681d014c6c57d… | success | — | — | 0xee59a0c73aaa421e… | 0xbbf3f1421d886e9b… | 0 | present | 2 | 0xbbf3f1421d886e9b… | — | 2020-08-01T20:12:39.761Z | 0x54a37d93e57c5da6… | 2020-08-02T16:24:35.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.053Z | 2026-03-11T22:14:15.053Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 1
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 1 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | d37500b0-27df-4817-910b-35343402fbb1 | 0xe494848287c96e2e370c4f7a620fd26ba47a205546ead6704abd901f436cc849 | success | — | — | 0x1c1deb2df4dda9b586d370ada69d7ebd38506a2e35ec1236e22076a405f0dc19 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0x0d582f130000000000000000000000008b8592e9570e96166336603a1b4bd1e8db20fa200000000000000000000000000000000000000000000000000000000000000002 | 1 | — | 2020-07-31T23:21:44.819Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2020-07-31T23:25:36.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.056Z | 2026-03-11T22:14:15.056Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | d37500b0-27df-4817-910b-35343402fbb1 | 0xe494848287c96e2e… | success | — | — | 0x1c1deb2df4dda9b5… | 0xbbf3f1421d886e9b… | 0 | present | 1 | 0xbbf3f1421d886e9b… | — | 2020-07-31T23:21:44.819Z | 0x54a37d93e57c5da6… | 2020-07-31T23:25:36.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.056Z | 2026-03-11T22:14:15.056Z | present |
 
 ## Action: 1 — Safe 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c — nonce 0
 
-| Field | Value |
-| --- | --- |
-| safeAddress | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c |
-| nonce | 0 |
-
 ### IDs & per-chain details
 
-| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | e9072a89-756b-4e4c-87fe-34f22bc60a84 | 0x28c2533350d2d28ad9baee55287d0a3561f18770bbbe428302dc401985c74983 | success | — | — | 0x8496422e42b0de483a06144efa86853eb19cd45d0bb8c4610c11c6008d15a106 | 0xbbf3f1421d886e9b2c5d716b5192ac998af2012c | 0 | 0x0d582f130000000000000000000000007e4a8391c728fed9069b2962699ab416628b19fa0000000000000000000000000000000000000000000000000000000000000002 | 0 | — | 2020-07-31T23:07:35.373Z | 0x54a37d93e57c5da659f508069cf65a381b61e189 | 2020-07-31T23:24:20.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.058Z | 2026-03-11T22:14:15.058Z | present |
+| chainId | id | safeTxHash | status | title | description | transactionHash | toAddress | value | data | nonce | safeAddress | creatorAddress | actionCreatedAt | executorAddress | executedAt | confirmationsRequired | confirmationsSubmitted | confirmations | dbCreatedAt | dbUpdatedAt | rawSafeData |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | e9072a89-756b-4e4c-87fe-34f22bc60a84 | 0x28c2533350d2d28a… | success | — | — | 0x8496422e42b0de48… | 0xbbf3f1421d886e9b… | 0 | present | 0 | 0xbbf3f1421d886e9b… | — | 2020-07-31T23:07:35.373Z | 0x54a37d93e57c5da6… | 2020-07-31T23:24:20.000Z | 2 | 2 | 2 entries | 2026-03-11T22:14:15.058Z | 2026-03-11T22:14:15.058Z | present |
 
 
-Generated at: 2026-03-11T22:15:00.228Z
+Generated at: 2026-03-11T22:26:06.448Z
 Total: 137
